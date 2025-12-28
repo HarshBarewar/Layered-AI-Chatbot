@@ -1,0 +1,507 @@
+{
+  "test_user": {
+    "conversations": [
+      {
+        "timestamp": "2025-12-25T21:49:25.017988",
+        "user_message": "Hello, how are you?",
+        "bot_response": "Hello! How can I help you today?",
+        "intent": "greeting",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:49:25.042600",
+        "user_message": "What is the PM of India?",
+        "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:49:25.076347",
+        "user_message": "I'm feeling sad today",
+        "bot_response": "I can see this is important to you. Could you rephrase your question?",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "sadness"
+          ],
+          "primary_emotion": "sadness",
+          "emotion_scores": {
+            "sadness": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:49:25.108257",
+        "user_message": "Can you help me with something?",
+        "bot_response": "Greetings! I'm here to assist you.",
+        "intent": "greeting",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:49:29.683853",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "Hello! I'm here to help. Could you please tell me a little more about what's on your mind and how I can assist you today?",
+        "intent": "help",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2025-12-25T21:49:25.017988",
+      "total_messages": 5,
+      "preferred_intents": {
+        "greeting": 2,
+        "question": 1,
+        "general": 1,
+        "help": 1
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2025-12-25T21:49:25.017988",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:49:25.042600",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:49:25.076347",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2025-12-25T21:49:25.108257",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:49:29.683853",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        }
+      ],
+      "last_interaction": "2025-12-25T21:49:29.683853"
+    }
+  },
+  "user_20251225_214940": {
+    "conversations": [
+      {
+        "timestamp": "2025-12-25T21:49:56.867855",
+        "user_message": "are you mad?",
+        "bot_response": "I'm here to help and provide information, not to take offense or get emotional. I'm a machine, and my purpose is to assist you with your questions. I don't have feelings or emotions, so I'm not capable of being \"mad.\" How can I help you today?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": -0.625,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.625,
+          "emotions": [
+            "anger"
+          ],
+          "primary_emotion": "anger",
+          "emotion_scores": {
+            "anger": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "high",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:50:11.605596",
+        "user_message": "Hello good morning",
+        "bot_response": "Hello! How can I help you today? This sounds great!",
+        "intent": "greeting",
+        "sentiment": {
+          "polarity": 0.7,
+          "subjectivity": 0.6000000000000001,
+          "sentiment": "positive",
+          "confidence": 0.7,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "high",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:50:25.825463",
+        "user_message": "What is data analytics",
+        "bot_response": "I'd be happy to help you with your question about data analytics. Can you please provide more context or clarify what specific aspect of data analytics you're interested in learning more about? Are you looking to improve your skills, learn about a particular tool or technique, or perhaps apply data analytics to a specific problem or industry?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:50:45.288151",
+        "user_message": "detailed info about chatbots",
+        "bot_response": "I'm thrilled to dive into the world of data analytics with you! Data analytics is a fascinating field that can help you uncover insights, drive business decisions, and tell stories with data. To get started, let's break it down into its core components:\n\n1. **Data Visualization**: We can explore the various techniques and tools used to present data in an intuitive and engaging way, making it easier to understand and act on.\n2. **Statistical Modeling**: We can discuss the different statistical models,",
+        "intent": "general",
+        "sentiment": {
+          "polarity": 0.4,
+          "subjectivity": 0.75,
+          "sentiment": "positive",
+          "confidence": 0.4,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "high",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:51:00.962292",
+        "user_message": "what is weather today",
+        "bot_response": "Since we didn't have a conversation about weather, I'll provide a direct answer. \n\nUnfortunately, I don't have real-time access to your location's current weather conditions. However, I can suggest ways for you to find out the weather today. You can check a weather website or app, such as AccuWeather or Weather.com, or ask a voice assistant like Siri, Google Assistant, or Alexa for the current weather conditions in your area.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:51:25.404612",
+        "user_message": "i am feeling great today",
+        "bot_response": "I appreciate your kind words! I'm excited to help!",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.8,
+          "subjectivity": 0.75,
+          "sentiment": "positive",
+          "confidence": 0.8,
+          "emotions": [
+            "joy"
+          ],
+          "primary_emotion": "joy",
+          "emotion_scores": {
+            "joy": 0.125
+          },
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "high",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:51:53.249120",
+        "user_message": "you are idiot and foolish",
+        "bot_response": "I can tell you're having a fantastic day! That's wonderful to hear! Would you like to talk about what's making you feel great today, or is there something on your agenda that's got you looking forward to?",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.8,
+          "subjectivity": 0.8,
+          "sentiment": "negative",
+          "confidence": 0.8,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:53:58.879005",
+        "user_message": "a=2",
+        "bot_response": "I sense a bit of frustration in your message. It's understandable to feel that way when someone's words don't quite align with our emotions. Would you like to talk about what's bothering you, or is there something specific you'd like to chat about to take your mind off things?",
+        "intent": "general",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:54:22.183113",
+        "user_message": "what is a+1",
+        "bot_response": "I think there may be a bit of confusion here. You initially asked \"what is a+1\" and I responded with a neutral answer, but it seems there was a miscommunication. To clarify, \"a+1\" is not a valid mathematical expression, but rather a notation used in programming to indicate an increment operation. Could you please provide more context or clarify what you meant by this question? I'm here to help and provide assistance.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:55:56.109503",
+        "user_message": "tujhe hindi aati hai",
+        "bot_response": "Greetings! I'm here to assist you.",
+        "intent": "greeting",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:56:08.060013",
+        "user_message": "talk in hindi",
+        "bot_response": "Hello! How can I help you today?",
+        "intent": "greeting",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-25T21:56:55.843322",
+        "user_message": "what is 7 c's of ennglish communication",
+        "bot_response": "The 7 C's of effective English communication are:\n\n1. Clarity: Clear and concise message.\n2. Correctness: Accurate grammar, spelling, and punctuation.\n3. Completeness: All necessary information is provided.\n4. Conciseness: Message is brief and to the point.\n5. Consideration: Audience and purpose are taken into account.\n6. Courtesy: Polite and respectful tone.\n7. Concreteness: Specific examples and details are used.\n\nIs there anything else",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2025-12-25T21:49:56.867855",
+      "total_messages": 12,
+      "preferred_intents": {
+        "question": 5,
+        "greeting": 3,
+        "general": 3,
+        "compliment": 1
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2025-12-25T21:49:56.867855",
+          "sentiment": "negative",
+          "polarity": -0.625
+        },
+        {
+          "timestamp": "2025-12-25T21:50:11.605596",
+          "sentiment": "positive",
+          "polarity": 0.7
+        },
+        {
+          "timestamp": "2025-12-25T21:50:25.825463",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:50:45.288151",
+          "sentiment": "positive",
+          "polarity": 0.4
+        },
+        {
+          "timestamp": "2025-12-25T21:51:00.962292",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:51:25.404612",
+          "sentiment": "positive",
+          "polarity": 0.8
+        },
+        {
+          "timestamp": "2025-12-25T21:51:53.249120",
+          "sentiment": "negative",
+          "polarity": -0.8
+        },
+        {
+          "timestamp": "2025-12-25T21:53:58.879005",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:54:22.183113",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:55:56.109503",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:56:08.060013",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-25T21:56:55.843322",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        }
+      ],
+      "last_interaction": "2025-12-25T21:56:55.843322"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+flask
+streamlit
+nltk
+textblob
+scikit-learn
+numpy
+pandas
+requests
+python-dotenv
+plotly
+spacy

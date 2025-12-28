@@ -1,0 +1,1059 @@
+{
+  "intent_improvements": {
+    "greeting": {
+      "successful_patterns": [
+        "hello,",
+        "you?",
+        "hello, how",
+        "how are",
+        "are you?",
+        "hello, how are",
+        "how are you?",
+        "help",
+        "with",
+        "something?",
+        "can you",
+        "you help",
+        "help me",
+        "me with",
+        "with something?",
+        "can you help",
+        "you help me",
+        "hello",
+        "good",
+        "morning",
+        "hello good",
+        "good morning",
+        "hello good morning",
+        "tujhe",
+        "hindi",
+        "aati",
+        "tujhe hindi",
+        "hindi aati",
+        "aati hai",
+        "tujhe hindi aati",
+        "hindi aati hai",
+        "talk",
+        "hindi",
+        "talk in",
+        "in hindi",
+        "talk in hindi"
+      ],
+      "failed_patterns": [],
+      "improvement_suggestions": []
+    },
+    "question": {
+      "successful_patterns": [
+        "what",
+        "india?",
+        "what is",
+        "of india?",
+        "what is the",
+        "pm of india?",
+        "mad?",
+        "are you",
+        "you mad?",
+        "are you mad?",
+        "what",
+        "data",
+        "analytics",
+        "what is",
+        "is data",
+        "data analytics",
+        "what is data",
+        "is data analytics",
+        "what",
+        "weather",
+        "today",
+        "what is",
+        "is weather",
+        "weather today",
+        "what is weather",
+        "is weather today",
+        "what",
+        "what is",
+        "what is a+1",
+        "what",
+        "ennglish",
+        "communication",
+        "what is",
+        "of ennglish",
+        "ennglish communication",
+        "c's of ennglish",
+        "of ennglish communication"
+      ],
+      "failed_patterns": [],
+      "improvement_suggestions": []
+    },
+    "general": {
+      "successful_patterns": [
+        "feeling",
+        "today",
+        "i'm feeling",
+        "feeling sad",
+        "sad today",
+        "i'm feeling sad",
+        "feeling sad today",
+        "detailed",
+        "info",
+        "about",
+        "chatbots",
+        "detailed info",
+        "info about",
+        "about chatbots",
+        "detailed info about",
+        "info about chatbots",
+        "idiot",
+        "foolish",
+        "you are",
+        "are idiot",
+        "idiot and",
+        "and foolish",
+        "you are idiot",
+        "are idiot and",
+        "idiot and foolish"
+      ],
+      "failed_patterns": [],
+      "improvement_suggestions": []
+    },
+    "help": {
+      "successful_patterns": [
+        "thank",
+        "your",
+        "assistance",
+        "thank you",
+        "you for",
+        "for your",
+        "your assistance",
+        "thank you for",
+        "you for your",
+        "for your assistance"
+      ],
+      "failed_patterns": [],
+      "improvement_suggestions": []
+    },
+    "compliment": {
+      "successful_patterns": [
+        "feeling",
+        "great",
+        "today",
+        "am feeling",
+        "feeling great",
+        "great today",
+        "i am feeling",
+        "am feeling great",
+        "feeling great today"
+      ],
+      "failed_patterns": [],
+      "improvement_suggestions": []
+    }
+  },
+  "response_feedback": [
+    {
+      "timestamp": "2025-12-25T21:49:25.036063",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.050030",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093115",
+      "strategy": "fallback",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.6
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125232",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705521",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:49:56.878428",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:50:11.625892",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "positive",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-25T21:50:25.838743",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297277",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "positive",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:51:00.973424",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431165",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "positive",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.263928",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:53:58.897567",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:54:22.202091",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.145447",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-25T21:56:08.094854",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-25T21:56:55.860200",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    }
+  ],
+  "pattern_discoveries": [
+    {
+      "timestamp": "2025-12-25T21:49:25.036089",
+      "pattern": "hello,",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.036099",
+      "pattern": "you?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.036107",
+      "pattern": "hello, how",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.036115",
+      "pattern": "how are",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.036122",
+      "pattern": "are you?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.036129",
+      "pattern": "hello, how are",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.036137",
+      "pattern": "how are you?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.050056",
+      "pattern": "what",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 6
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.050066",
+      "pattern": "india?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.050077",
+      "pattern": "what is",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 6
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.050086",
+      "pattern": "of india?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.050096",
+      "pattern": "what is the",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.050106",
+      "pattern": "pm of india?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093135",
+      "pattern": "feeling",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093144",
+      "pattern": "today",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093153",
+      "pattern": "i'm feeling",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093163",
+      "pattern": "feeling sad",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093171",
+      "pattern": "sad today",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093181",
+      "pattern": "i'm feeling sad",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.093190",
+      "pattern": "feeling sad today",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125257",
+      "pattern": "help",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125267",
+      "pattern": "with",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125277",
+      "pattern": "something?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125286",
+      "pattern": "can you",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125295",
+      "pattern": "you help",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125306",
+      "pattern": "help me",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125316",
+      "pattern": "me with",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125326",
+      "pattern": "with something?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125337",
+      "pattern": "can you help",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:25.125347",
+      "pattern": "you help me",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705559",
+      "pattern": "thank",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705583",
+      "pattern": "your",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705599",
+      "pattern": "assistance",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705616",
+      "pattern": "thank you",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705633",
+      "pattern": "you for",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705658",
+      "pattern": "for your",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705675",
+      "pattern": "your assistance",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705693",
+      "pattern": "thank you for",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705710",
+      "pattern": "you for your",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:29.705728",
+      "pattern": "for your assistance",
+      "intent": "help",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:56.878462",
+      "pattern": "mad?",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:56.878483",
+      "pattern": "are you",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:56.878503",
+      "pattern": "you mad?",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:49:56.878519",
+      "pattern": "are you mad?",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:11.625938",
+      "pattern": "hello",
+      "intent": "greeting",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:11.625955",
+      "pattern": "good",
+      "intent": "greeting",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:11.625973",
+      "pattern": "morning",
+      "intent": "greeting",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:11.625987",
+      "pattern": "hello good",
+      "intent": "greeting",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:11.626004",
+      "pattern": "good morning",
+      "intent": "greeting",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:11.626025",
+      "pattern": "hello good morning",
+      "intent": "greeting",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:25.838799",
+      "pattern": "data",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:25.838824",
+      "pattern": "analytics",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:25.838864",
+      "pattern": "is data",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:25.838899",
+      "pattern": "data analytics",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:25.838922",
+      "pattern": "what is data",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:25.838946",
+      "pattern": "is data analytics",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297317",
+      "pattern": "detailed",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297340",
+      "pattern": "info",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297361",
+      "pattern": "about",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297383",
+      "pattern": "chatbots",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297406",
+      "pattern": "detailed info",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297429",
+      "pattern": "info about",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297463",
+      "pattern": "about chatbots",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297488",
+      "pattern": "detailed info about",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:50:45.297512",
+      "pattern": "info about chatbots",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:00.973475",
+      "pattern": "weather",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:00.973492",
+      "pattern": "today",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:00.973526",
+      "pattern": "is weather",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:00.973548",
+      "pattern": "weather today",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:00.973564",
+      "pattern": "what is weather",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:00.973580",
+      "pattern": "is weather today",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431208",
+      "pattern": "feeling",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431374",
+      "pattern": "great",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431409",
+      "pattern": "today",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431434",
+      "pattern": "am feeling",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431459",
+      "pattern": "feeling great",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431483",
+      "pattern": "great today",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431510",
+      "pattern": "i am feeling",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431534",
+      "pattern": "am feeling great",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:25.431559",
+      "pattern": "feeling great today",
+      "intent": "compliment",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.263979",
+      "pattern": "idiot",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264006",
+      "pattern": "foolish",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264032",
+      "pattern": "you are",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264060",
+      "pattern": "are idiot",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264087",
+      "pattern": "idiot and",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264110",
+      "pattern": "and foolish",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264147",
+      "pattern": "you are idiot",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264179",
+      "pattern": "are idiot and",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:51:53.264208",
+      "pattern": "idiot and foolish",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:54:22.202200",
+      "pattern": "what is a+1",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.145498",
+      "pattern": "tujhe",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.146507",
+      "pattern": "hindi",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.146649",
+      "pattern": "aati",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.146799",
+      "pattern": "tujhe hindi",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.146826",
+      "pattern": "hindi aati",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.146850",
+      "pattern": "aati hai",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.146886",
+      "pattern": "tujhe hindi aati",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:55:56.146911",
+      "pattern": "hindi aati hai",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:08.094916",
+      "pattern": "talk",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:08.094971",
+      "pattern": "talk in",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:08.094998",
+      "pattern": "in hindi",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:08.095027",
+      "pattern": "talk in hindi",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:55.860275",
+      "pattern": "ennglish",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:55.860307",
+      "pattern": "communication",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:55.860360",
+      "pattern": "of ennglish",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:55.860381",
+      "pattern": "ennglish communication",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:55.860408",
+      "pattern": "c's of ennglish",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-25T21:56:55.860434",
+      "pattern": "of ennglish communication",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    }
+  ],
+  "optimization_suggestions": [],
+  "model_performance_history": [
+    {
+      "date": "2025-12-25",
+      "intent_performance": {
+        "greeting": {
+          "total": 5,
+          "successful": 5
+        },
+        "question": {
+          "total": 6,
+          "successful": 6
+        },
+        "general": {
+          "total": 4,
+          "successful": 4
+        },
+        "help": {
+          "total": 1,
+          "successful": 1
+        },
+        "compliment": {
+          "total": 1,
+          "successful": 1
+        }
+      },
+      "overall_accuracy": 100.0
+    }
+  ]
+}
