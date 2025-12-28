@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 Layered AI Chatbot System
 
 A production-grade AI chatbot with a sophisticated 9-layer architecture, real-time analytics, and adaptive learning capabilities.
@@ -358,3 +359,9 @@ For issues and questions:
 4. Monitor analytics and learning insights
 5. Customize for your specific use case
 6. Scale for production deployment
+=======
+# Layered-AI-Chatbot
+The Dynamic AI Chatbot System is a production-grade conversational AI solution designed to deliver natural, context-aware, and emotionally intelligent conversations. It integrates modern NLP, Machine Learning, and Generative AI techniques with a scalable backend and a sleek Streamlit-based frontend.
+>>>>>>> cb273d1df2fd344b8b430f100c682596f4ee54c2
+#   L a y e r e d - A I - C h a t b o t  
+ 
