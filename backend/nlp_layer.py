@@ -34,21 +34,57 @@ class NLPLayer:
         training_data = []
         labels = []
         
-        # Generate training data from config
-        for intent, patterns in self.config.INTENTS.items():
-            for pattern in patterns:
-                training_data.append(pattern)
+        # Enhanced training data
+        training_examples = {
+            'greeting': [
+                'hello', 'hi', 'hey', 'good morning', 'good afternoon', 'good evening',
+                'greetings', 'howdy', 'hiya', 'sup'
+            ],
+            'goodbye': [
+                'bye', 'goodbye', 'see you later', 'farewell', 'take care', 'exit',
+                'quit', 'see ya', 'catch you later', 'until next time'
+            ],
+            'question': [
+                'what is machine learning', 'what is data science', 'how does AI work',
+                'explain artificial intelligence', 'tell me about python', 'what are algorithms',
+                'how do neural networks work', 'what is deep learning', 'define statistics',
+                'what is the capital of france', 'who is the president', 'when was this invented',
+                'where is this located', 'why does this happen', 'which is better',
+                'what time is it', 'how old are you', 'what can you do'
+            ],
+            'help': [
+                'help me', 'can you help', 'i need assistance', 'support me',
+                'guide me', 'show me how', 'can you assist', 'i need help with',
+                'help with this', 'assist me please'
+            ],
+            'compliment': [
+                'thank you', 'thanks', 'good job', 'well done', 'excellent work',
+                'great response', 'amazing', 'fantastic', 'you are helpful',
+                'appreciate it', 'good answer'
+            ],
+            'general': [
+                'tell me something', 'i want to know', 'information about',
+                'details on', 'more about this', 'explain this topic',
+                'i am interested in', 'show me', 'describe this'
+            ]
+        }
+        
+        # Generate training data
+        for intent, examples in training_examples.items():
+            for example in examples:
+                training_data.append(example)
                 labels.append(intent)
                 
                 # Add variations
-                training_data.append(f"I want to {pattern}")
-                labels.append(intent)
-                training_data.append(f"Can you {pattern}")
-                labels.append(intent)
+                if intent == 'question':
+                    training_data.append(f"can you {example}")
+                    labels.append(intent)
+                    training_data.append(f"please {example}")
+                    labels.append(intent)
         
         # Create and train pipeline
         self.intent_model = Pipeline([
-            ('tfidf', TfidfVectorizer(ngram_range=(1, 2), stop_words='english')),
+            ('tfidf', TfidfVectorizer(ngram_range=(1, 3), stop_words='english', max_features=1000)),
             ('classifier', MultinomialNB(alpha=0.1))
         ])
         
@@ -64,32 +100,56 @@ class NLPLayer:
     
     def classify_intent(self, text, context=None):
         """Classify user intent using ML model and rules"""
-        # Rule-based classification first
-        text_lower = text.lower()
+        text_lower = text.lower().strip()
         
-        # Check for exact matches
-        for intent, patterns in self.config.INTENTS.items():
-            for pattern in patterns:
-                if pattern in text_lower:
-                    return intent, 0.9
+        # Priority 1: Greeting detection (must be first)
+        greeting_patterns = ['hello', 'hi', 'hey', 'good morning', 'good afternoon', 'good evening', 'greetings']
+        if any(greeting in text_lower for greeting in greeting_patterns):
+            # Check if it's a simple greeting (not a question about greetings)
+            if not any(q in text_lower for q in ['what', 'how', 'why', 'when', 'where', 'who', 'which', '?']):
+                return 'greeting', 0.95
         
-        # Check for question patterns
+        # Priority 2: Goodbye detection
+        goodbye_words = ['bye', 'goodbye', 'see you', 'farewell', 'exit', 'quit']
+        if any(word in text_lower for word in goodbye_words):
+            return 'goodbye', 0.9
+        
+        # Priority 3: Compliment detection
+        compliment_words = ['thank', 'thanks', 'good job', 'well done', 'excellent', 'amazing', 'great']
+        if any(word in text_lower for word in compliment_words):
+            return 'compliment', 0.85
+        
+        # Priority 4: Help detection
+        help_patterns = ['help me', 'can you help', 'need help', 'assist me', 'support me']
+        if any(pattern in text_lower for pattern in help_patterns):
+            return 'help', 0.9
+        
+        # Priority 5: Question detection (more specific)
+        question_starters = ['what is', 'what are', 'how does', 'how do', 'tell me about', 'explain', 'describe', 'define']
         question_words = ['what', 'how', 'when', 'where', 'why', 'who', 'which']
-        if any(word in text_lower for word in question_words) or '?' in text:
-            return 'question', 0.8
         
-        # ML-based classification
+        # Check for explicit question patterns
+        if any(pattern in text_lower for pattern in question_starters) or '?' in text:
+            return 'question', 0.95
+        
+        # Check for question words at the beginning
+        words = text_lower.split()
+        if len(words) > 0 and words[0] in question_words:
+            return 'question', 0.9
+        
+        # Priority 6: ML-based classification as fallback
         if self.intent_model:
             try:
                 predicted_intent = self.intent_model.predict([text])[0]
                 confidence = max(self.intent_model.predict_proba([text])[0])
                 
-                if confidence > self.config.CONFIDENCE_THRESHOLD:
+                if confidence > 0.7:  # Higher threshold for ML
                     return predicted_intent, confidence
             except:
                 pass
         
-        return 'general', 0.5
+        # Default to general for everything else
+        return 'general', 0.6
     
     def extract_entities(self, text):
         """Extract named entities (simplified NER)"""

@@ -43,8 +43,15 @@ class ResponseLayer:
     
     def generate_ai_response(self, text, intent, sentiment, context):
         """Generate AI-powered response using external APIs"""
-        # Try OpenRouter first
-        if self.config.OPENROUTER_API_KEY:
+        # Check if we have valid API keys
+        if not self.config.OPENROUTER_API_KEY or self.config.OPENROUTER_API_KEY == 'your_openrouter_key_here':
+            print("⚠️ OpenRouter API key not configured")
+        
+        if not self.config.HUGGINGFACE_API_KEY or self.config.HUGGINGFACE_API_KEY == 'your_huggingface_key_here':
+            print("⚠️ Hugging Face API key not configured")
+        
+        # Try OpenRouter first (better for general questions)
+        if self.config.OPENROUTER_API_KEY and self.config.OPENROUTER_API_KEY != 'your_openrouter_key_here':
             ai_response = self._call_openrouter_api(text, intent, sentiment, context)
             if ai_response:
                 return {
@@ -54,7 +61,7 @@ class ResponseLayer:
                 }
         
         # Try Hugging Face as fallback
-        if self.config.HUGGINGFACE_API_KEY:
+        if self.config.HUGGINGFACE_API_KEY and self.config.HUGGINGFACE_API_KEY != 'your_huggingface_key_here':
             ai_response = self._call_huggingface_api(text, intent, sentiment, context)
             if ai_response:
                 return {
@@ -63,7 +70,8 @@ class ResponseLayer:
                     'confidence': 0.8
                 }
         
-        return None
+        # If no API keys available, use enhanced rule-based responses
+        return self._generate_enhanced_rule_response(text, intent, sentiment, context)
     
     def _call_openrouter_api(self, text, intent, sentiment, context):
         """Call OpenRouter API for AI response"""
@@ -80,10 +88,15 @@ class ResponseLayer:
             
             data = {
                 "model": "meta-llama/llama-3.2-3b-instruct:free",
-                "messages": [{"role": "user", "content": prompt}],
-                "max_tokens": 100,
+                "messages": [
+                    {"role": "system", "content": "You are a helpful, knowledgeable AI assistant. Provide accurate, informative, and concise responses. For technical topics like data science, explain concepts clearly with examples when appropriate. Always give direct, specific answers to questions."},
+                    {"role": "user", "content": text}
+                ],
+                "max_tokens": 300,
                 "temperature": 0.7
             }
+            
+            print(f"🔄 Calling OpenRouter API for: {text[:50]}...")
             
             response = requests.post(
                 f"{self.config.OPENROUTER_BASE_URL}/chat/completions",
@@ -92,12 +105,18 @@ class ResponseLayer:
                 timeout=self.config.RESPONSE_TIMEOUT
             )
             
+            print(f"📡 OpenRouter API Status: {response.status_code}")
+            
             if response.status_code == 200:
                 result = response.json()
-                return result['choices'][0]['message']['content'].strip()
+                ai_response = result['choices'][0]['message']['content'].strip()
+                print(f"✅ OpenRouter API Success: {ai_response[:100]}...")
+                return ai_response
+            else:
+                print(f"❌ OpenRouter API Error: {response.status_code} - {response.text}")
             
         except Exception as e:
-            print(f"OpenRouter API error: {e}")
+            print(f"❌ OpenRouter API Exception: {e}")
         
         return None
     
@@ -109,31 +128,56 @@ class ResponseLayer:
                 "Content-Type": "application/json"
             }
             
-            prompt = f"User: {text}\nAssistant:"
+            # Use a better model for text generation
+            prompt = self._build_ai_prompt(text, intent, sentiment, context)
             
             data = {
                 "inputs": prompt,
                 "parameters": {
-                    "max_length": 100,
+                    "max_new_tokens": 150,
                     "temperature": 0.7,
-                    "do_sample": True
+                    "do_sample": True,
+                    "top_p": 0.9,
+                    "repetition_penalty": 1.1
+                },
+                "options": {
+                    "wait_for_model": True
                 }
             }
             
-            response = requests.post(
-                "https://api-inference.huggingface.co/models/gpt2",
-                headers=headers,
-                json=data,
-                timeout=self.config.RESPONSE_TIMEOUT
-            )
+            # Try different models based on the question type
+            models = [
+                "microsoft/DialoGPT-medium",
+                "facebook/blenderbot-400M-distill",
+                "gpt2"
+            ]
             
-            if response.status_code == 200:
-                result = response.json()
-                if isinstance(result, list) and len(result) > 0:
-                    generated_text = result[0].get('generated_text', '')
-                    if generated_text.startswith(prompt):
-                        return generated_text[len(prompt):].strip()
-                    return generated_text.strip()
+            for model in models:
+                try:
+                    response = requests.post(
+                        f"https://api-inference.huggingface.co/models/{model}",
+                        headers=headers,
+                        json=data,
+                        timeout=self.config.RESPONSE_TIMEOUT
+                    )
+                    
+                    if response.status_code == 200:
+                        result = response.json()
+                        if isinstance(result, list) and len(result) > 0:
+                            generated_text = result[0].get('generated_text', '')
+                            # Clean up the response
+                            if generated_text.startswith(prompt):
+                                clean_response = generated_text[len(prompt):].strip()
+                            else:
+                                clean_response = generated_text.strip()
+                            
+                            # Filter out incomplete or poor responses
+                            if len(clean_response) > 10 and not clean_response.startswith('User:'):
+                                return clean_response
+                    
+                except Exception as model_error:
+                    print(f"Model {model} failed: {model_error}")
+                    continue
             
         except Exception as e:
             print(f"Hugging Face API error: {e}")
@@ -142,20 +186,17 @@ class ResponseLayer:
     
     def _build_ai_prompt(self, text, intent, sentiment, context):
         """Build context-aware prompt for AI generation"""
-        prompt = f"User message: {text}\n"
-        prompt += f"Intent: {intent}\n"
-        prompt += f"Sentiment: {sentiment.get('sentiment', 'neutral')}\n"
+        # Create a more natural conversation prompt
+        prompt = ""
         
-        # Add conversation context
+        # Add conversation context if available
         if context and context.get('history'):
             recent_history = context['history'][-2:]
-            prompt += "Recent conversation:\n"
             for exchange in recent_history:
-                prompt += f"User: {exchange['user']}\nBot: {exchange['bot']}\n"
+                prompt += f"Human: {exchange['user']}\nAssistant: {exchange['bot']}\n"
         
-        # Add tone instruction
-        tone_instruction = self._get_tone_instruction(sentiment)
-        prompt += f"\nRespond as a helpful AI assistant. {tone_instruction} Keep response concise.\n\nAssistant:"
+        # Add current user message
+        prompt += f"Human: {text}\nAssistant:"
         
         return prompt
     
@@ -241,8 +282,9 @@ class ResponseLayer:
             ai_response = self.generate_ai_response(text, intent, sentiment, context)
             if ai_response:
                 return ai_response
-            # Fallback to rule-based if AI fails
-            return self.generate_rule_based_response(intent, sentiment, context)
+            # Fallback to enhanced rules if AI fails
+            print("🔄 AI failed, using enhanced rules...")
+            return self._generate_enhanced_rule_response(text, intent, sentiment, context)
         
         elif strategy == 'fallback':
             fallback_type = strategy_decision.get('fallback_type', 'friendly_fallback')
@@ -250,4 +292,42 @@ class ResponseLayer:
         
         else:
             # Default fallback
-            return self.generate_rule_based_response(intent, sentiment, context)
+            return self._generate_enhanced_rule_response(text, intent, sentiment, context)
+    
+    def _generate_enhanced_rule_response(self, text, intent, sentiment, context):
+        """Generate enhanced rule-based responses when APIs are not available"""
+        text_lower = text.lower()
+        
+        # Enhanced responses for common questions
+        if 'data science' in text_lower:
+            response = "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from structured and unstructured data. It combines statistics, mathematics, programming, and domain expertise to analyze complex data sets and make data-driven decisions. Key areas include data collection, cleaning, analysis, visualization, and machine learning."
+        elif 'machine learning' in text_lower or 'ml' in text_lower:
+            response = "Machine Learning is a subset of artificial intelligence that enables computers to learn and make decisions from data without being explicitly programmed. It includes supervised learning (with labeled data), unsupervised learning (finding patterns), and reinforcement learning (learning through rewards)."
+        elif 'artificial intelligence' in text_lower or 'ai' in text_lower:
+            response = "Artificial Intelligence (AI) is the simulation of human intelligence in machines. It includes machine learning, natural language processing, computer vision, robotics, and expert systems. AI aims to create systems that can perform tasks that typically require human intelligence."
+        elif 'python' in text_lower and ('programming' in text_lower or 'language' in text_lower):
+            response = "Python is a high-level, interpreted programming language known for its simplicity and readability. It's widely used in data science, web development, automation, and AI due to its extensive libraries like pandas, numpy, scikit-learn, and tensorflow."
+        elif 'decision tree' in text_lower:
+            response = "A Decision Tree Classifier is a supervised machine learning algorithm that uses a tree-like model to make decisions. It splits data based on feature values to create branches, with each leaf representing a class prediction. It's easy to interpret and visualize, making it popular for classification tasks."
+        elif '7 c' in text_lower and 'communication' in text_lower:
+            response = "The 7 C's of Communication are: 1) Clear - easy to understand, 2) Concise - brief and to the point, 3) Concrete - specific and definite, 4) Correct - accurate information, 5) Coherent - logical flow, 6) Complete - all necessary information, 7) Courteous - respectful and polite tone."
+        elif any(word in text_lower for word in ['what', 'how', 'why', 'when', 'where', 'explain', 'tell me']):
+            # For general questions, provide helpful responses
+            if intent == 'question':
+                response = "I'd be happy to help answer your question. Could you provide a bit more context or be more specific about what you'd like to know?"
+            else:
+                base_responses = self.config.RESPONSES.get(intent, self.config.RESPONSES['general'])
+                response = random.choice(base_responses)
+        else:
+            # Use standard rule-based response
+            base_responses = self.config.RESPONSES.get(intent, self.config.RESPONSES['general'])
+            response = random.choice(base_responses)
+        
+        # Apply tone modifications
+        response = self._apply_tone_modifications(response, sentiment)
+        
+        return {
+            'text': response,
+            'strategy': 'enhanced_rule_based',
+            'confidence': 0.85
+        }

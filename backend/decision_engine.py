@@ -59,28 +59,29 @@ class DecisionEngine:
     
     def should_use_rule_based(self, intent, confidence):
         """Decide if rule-based response should be used"""
-        # Use rule-based for high-confidence common intents
+        # Use rule-based only for high-confidence simple intents
         rule_based_intents = ['greeting', 'goodbye', 'compliment']
         
-        if intent in rule_based_intents and confidence > 0.7:
-            return True
-        
-        # Use rule-based for low-confidence queries as fallback
-        if confidence < 0.4:
+        if intent in rule_based_intents and confidence > 0.8:
             return True
         
         return False
     
     def should_use_generative_ai(self, intent, confidence, context):
         """Decide if generative AI should be used"""
-        # Use AI for complex questions and general queries
+        # Use AI for most questions, especially technical ones
         ai_suitable_intents = ['question', 'general', 'help']
         
-        if intent in ai_suitable_intents and confidence > 0.6:
+        # Always try AI for questions with reasonable confidence
+        if intent in ai_suitable_intents and confidence > 0.5:
+            return True
+        
+        # Use AI for complex or technical queries
+        if intent == 'question':
             return True
         
         # Use AI if conversation history suggests complex discussion
-        if context and len(context.get('history', [])) > 2:
+        if context and len(context.get('history', [])) > 1:
             return True
         
         return False

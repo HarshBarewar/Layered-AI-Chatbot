@@ -17,6 +17,28 @@ def setup_environment():
     os.makedirs('data', exist_ok=True)
     os.makedirs('models', exist_ok=True)
     
+    # Check if .env file exists and has valid API keys
+    env_path = '.env'
+    if os.path.exists(env_path):
+        from dotenv import load_dotenv
+        load_dotenv()
+        
+        hf_key = os.getenv('HUGGINGFACE_API_KEY')
+        or_key = os.getenv('OPENROUTER_API_KEY')
+        
+        if hf_key and hf_key != 'your_huggingface_key_here':
+            print("✅ Hugging Face API key found")
+        else:
+            print("⚠️ Hugging Face API key not configured (will use rule-based responses)")
+            
+        if or_key and or_key != 'your_openrouter_key_here':
+            print("✅ OpenRouter API key found")
+        else:
+            print("⚠️ OpenRouter API key not configured (will use rule-based responses)")
+    else:
+        print("⚠️ .env file not found - creating template")
+        create_env_template()
+    
     # Install requirements
     try:
         print("📦 Installing requirements...")
@@ -30,15 +52,63 @@ def setup_environment():
     try:
         print("📚 Downloading NLTK data...")
         import nltk
+        import ssl
+        try:
+            _create_unverified_https_context = ssl._create_unverified_context
+        except AttributeError:
+            pass
+        else:
+            ssl._create_default_https_context = _create_unverified_https_context
+            
         nltk.download('punkt', quiet=True)
         nltk.download('stopwords', quiet=True)
         nltk.download('wordnet', quiet=True)
         nltk.download('averaged_perceptron_tagger', quiet=True)
+        nltk.download('vader_lexicon', quiet=True)
         print("✅ NLTK data downloaded successfully!")
     except Exception as e:
         print(f"⚠️ Warning: Could not download NLTK data: {e}")
     
     return True
+
+def create_env_template():
+    """Create .env template file"""
+    env_content = """# Layered AI Chatbot System Configuration
+
+# API Configuration (Optional - for enhanced AI responses)
+# Get your keys from:
+# Hugging Face: https://huggingface.co/settings/tokens
+# OpenRouter: https://openrouter.ai/keys
+HUGGINGFACE_API_KEY=your_huggingface_key_here
+OPENROUTER_API_KEY=your_openrouter_key_here
+OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
+
+# System Configuration
+CONFIDENCE_THRESHOLD=0.6
+MAX_CONVERSATION_HISTORY=10
+RESPONSE_TIMEOUT=30
+
+# Analytics Configuration
+ANALYTICS_RETENTION_DAYS=30
+MAX_STORED_INTERACTIONS=10000
+
+# Learning Configuration
+LEARNING_ENABLED=True
+AUTO_OPTIMIZATION=True
+
+# API Server Configuration
+API_HOST=localhost
+API_PORT=5000
+API_DEBUG=False
+
+# Streamlit Configuration
+STREAMLIT_PORT=8501
+STREAMLIT_HOST=localhost
+"""
+    
+    with open('.env', 'w') as f:
+        f.write(env_content)
+    print("📝 Created .env template file")
 
 def test_system():
     """Test the layered chatbot system"""

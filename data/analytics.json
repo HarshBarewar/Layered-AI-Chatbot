@@ -1,40 +1,28 @@
 {
-  "total_conversations": 17,
+  "total_conversations": 75,
   "intent_counts": {
+    "question": {
+      "total": 37,
+      "successful": 37,
+      "avg_confidence": 0.8000000000000004,
+      "confidence_sum": 29.600000000000016
+    },
     "greeting": {
       "total": 5,
       "successful": 5,
       "avg_confidence": 0.8,
       "confidence_sum": 4.0
     },
-    "question": {
-      "total": 6,
-      "successful": 6,
-      "avg_confidence": 0.7999999999999999,
-      "confidence_sum": 4.8
-    },
     "general": {
-      "total": 4,
-      "successful": 4,
-      "avg_confidence": 0.8,
-      "confidence_sum": 3.2
-    },
-    "help": {
-      "total": 1,
-      "successful": 1,
-      "avg_confidence": 0.8,
-      "confidence_sum": 0.8
-    },
-    "compliment": {
-      "total": 1,
-      "successful": 1,
-      "avg_confidence": 0.8,
-      "confidence_sum": 0.8
+      "total": 8,
+      "successful": 8,
+      "avg_confidence": 0.7999999999999999,
+      "confidence_sum": 6.3999999999999995
     }
   },
   "sentiment_records": [
     {
-      "timestamp": "2025-12-25T21:49:25.030320",
+      "timestamp": "2025-12-30T14:30:31.035229",
       "user_id": "test_user",
       "sentiment": "neutral",
       "polarity": 0.0,
@@ -42,7 +30,7 @@
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:49:25.045593",
+      "timestamp": "2025-12-30T14:31:07.936932",
       "user_id": "test_user",
       "sentiment": "neutral",
       "polarity": 0.0,
@@ -50,17 +38,223 @@
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:49:25.080925",
+      "timestamp": "2025-12-30T14:31:07.975178",
       "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.166838",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:32:05.296977",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:32:05.331898",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:32:09.392399",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:32:48.735973",
+      "user_id": "user_20251230_143223",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:32:56.915174",
+      "user_id": "user_20251230_143223",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:33:06.147630",
+      "user_id": "user_20251230_143223",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:33:22.074619",
+      "user_id": "user_20251230_143223",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.659029",
+      "user_id": "user_20251230_143223",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:36:02.626638",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:36:02.652051",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:51:42.934967",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:51:42.961722",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:52:33.403599",
+      "user_id": "user_20251230_145210",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:52:52.842159",
+      "user_id": "user_20251230_145210",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:53:37.885363",
+      "user_id": "user_20251230_145210",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:57:46.246929",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:57:46.289933",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T14:58:32.575529",
+      "user_id": "user_20251230_145804",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T15:01:34.954378",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T15:01:35.040043",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T15:02:23.516368",
+      "user_id": "user_20251230_150154",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T15:03:03.643755",
+      "user_id": "user_20251230_150154",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T15:03:21.049435",
+      "user_id": "user_20251230_150154",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2025-12-30T15:03:37.881556",
+      "user_id": "user_20251230_150154",
       "sentiment": "negative",
       "polarity": -0.5,
-      "emotions": [
-        "sadness"
-      ],
-      "primary_emotion": "sadness"
+      "emotions": [],
+      "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:49:25.115119",
+      "timestamp": "2025-12-30T15:05:02.921027",
+      "user_id": "user_20251230_150154",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:16:13.298540",
       "user_id": "test_user",
       "sentiment": "neutral",
       "polarity": 0.0,
@@ -68,7 +262,7 @@
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:49:29.694280",
+      "timestamp": "2026-01-06T17:16:13.347806",
       "user_id": "test_user",
       "sentiment": "neutral",
       "polarity": 0.0,
@@ -76,254 +270,612 @@
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:49:56.871861",
-      "user_id": "user_20251225_214940",
+      "timestamp": "2026-01-06T17:17:22.679977",
+      "user_id": "user_20260106_171635",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:17:58.461552",
+      "user_id": "user_20260106_171635",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:18:10.263601",
+      "user_id": "user_20260106_171629",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.907566",
+      "user_id": "user_20260106_171635",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:19:26.525567",
+      "user_id": "user_20260106_171635",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.677268",
+      "user_id": "user_20260106_171635",
       "sentiment": "negative",
-      "polarity": -0.625,
+      "polarity": -0.5,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:55:04.623993",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:55:04.689628",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:55:47.515346",
+      "user_id": "user_20260106_175528",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.759476",
+      "user_id": "user_20260106_175528",
+      "sentiment": "negative",
+      "polarity": -0.5,
       "emotions": [
         "anger"
       ],
       "primary_emotion": "anger"
     },
     {
-      "timestamp": "2025-12-25T21:50:11.615543",
-      "user_id": "user_20251225_214940",
-      "sentiment": "positive",
-      "polarity": 0.7,
-      "emotions": [],
-      "primary_emotion": null
-    },
-    {
-      "timestamp": "2025-12-25T21:50:25.830514",
-      "user_id": "user_20251225_214940",
+      "timestamp": "2026-01-06T17:59:51.163306",
+      "user_id": "user_20260106_175528",
       "sentiment": "neutral",
       "polarity": 0.0,
       "emotions": [],
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:50:45.292038",
-      "user_id": "user_20251225_214940",
-      "sentiment": "positive",
-      "polarity": 0.4,
+      "timestamp": "2026-01-06T18:01:01.326585",
+      "user_id": "user_20260106_175528",
+      "sentiment": "neutral",
+      "polarity": 5.551115123125783e-17,
       "emotions": [],
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:51:00.967856",
-      "user_id": "user_20251225_214940",
+      "timestamp": "2026-01-06T18:01:53.754733",
+      "user_id": "user_20260106_175528",
       "sentiment": "neutral",
       "polarity": 0.0,
       "emotions": [],
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:51:25.421312",
-      "user_id": "user_20251225_214940",
-      "sentiment": "positive",
-      "polarity": 0.8,
-      "emotions": [
-        "joy"
-      ],
-      "primary_emotion": "joy"
+      "timestamp": "2026-01-06T18:15:18.541828",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:51:53.256695",
-      "user_id": "user_20251225_214940",
+      "timestamp": "2026-01-06T18:15:18.592055",
+      "user_id": "test_user",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T18:16:33.371090",
+      "user_id": "user_20260106_181539",
+      "sentiment": "neutral",
+      "polarity": 0.0,
+      "emotions": [],
+      "primary_emotion": null
+    },
+    {
+      "timestamp": "2026-01-06T18:16:55.874756",
+      "user_id": "user_20260106_181539",
       "sentiment": "negative",
-      "polarity": -0.8,
+      "polarity": -0.5,
       "emotions": [],
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:53:58.886184",
-      "user_id": "user_20251225_214940",
-      "sentiment": "neutral",
-      "polarity": 0.0,
+      "timestamp": "2026-01-06T18:17:47.980424",
+      "user_id": "user_20260106_181539",
+      "sentiment": "positive",
+      "polarity": 0.5,
       "emotions": [],
       "primary_emotion": null
     },
     {
-      "timestamp": "2025-12-25T21:54:22.190720",
-      "user_id": "user_20251225_214940",
-      "sentiment": "neutral",
-      "polarity": 0.0,
-      "emotions": [],
-      "primary_emotion": null
-    },
-    {
-      "timestamp": "2025-12-25T21:55:56.122398",
-      "user_id": "user_20251225_214940",
-      "sentiment": "neutral",
-      "polarity": 0.0,
-      "emotions": [],
-      "primary_emotion": null
-    },
-    {
-      "timestamp": "2025-12-25T21:56:08.081504",
-      "user_id": "user_20251225_214940",
-      "sentiment": "neutral",
-      "polarity": 0.0,
-      "emotions": [],
-      "primary_emotion": null
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.851271",
-      "user_id": "user_20251225_214940",
-      "sentiment": "neutral",
-      "polarity": 0.0,
+      "timestamp": "2026-01-06T18:18:24.046144",
+      "user_id": "user_20260106_181539",
+      "sentiment": "positive",
+      "polarity": 0.6,
       "emotions": [],
       "primary_emotion": null
     }
   ],
   "response_success": [
     {
-      "timestamp": "2025-12-25T21:49:25.033044",
-      "strategy": "rule_based",
+      "timestamp": "2025-12-30T14:30:31.036654",
+      "strategy": "enhanced_rule_based",
       "success": true,
       "confidence": 0.8,
-      "response_time": 0.15650582313537598
+      "response_time": 2.1475954055786133
     },
     {
-      "timestamp": "2025-12-25T21:49:25.046829",
+      "timestamp": "2025-12-30T14:31:07.939359",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 2.440838575363159
+    },
+    {
+      "timestamp": "2025-12-30T14:31:07.976765",
       "strategy": "faq",
       "success": true,
       "confidence": 0.8,
-      "response_time": 0.0022916793823242188
+      "response_time": 0.0032613277435302734
     },
     {
-      "timestamp": "2025-12-25T21:49:25.087547",
-      "strategy": "fallback",
+      "timestamp": "2025-12-30T14:31:12.169892",
+      "strategy": "enhanced_rule_based",
       "success": true,
       "confidence": 0.8,
-      "response_time": 0.006691932678222656
+      "response_time": 2.1576898097991943
     },
     {
-      "timestamp": "2025-12-25T21:49:25.119730",
+      "timestamp": "2025-12-30T14:32:05.298938",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 2.175649404525757
+    },
+    {
+      "timestamp": "2025-12-30T14:32:05.333784",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.004411220550537109
+    },
+    {
+      "timestamp": "2025-12-30T14:32:09.397299",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 1.9487512111663818
+    },
+    {
+      "timestamp": "2025-12-30T14:32:48.738835",
       "strategy": "rule_based",
       "success": true,
       "confidence": 0.8,
-      "response_time": 0.004535675048828125
+      "response_time": 0.09811735153198242
     },
     {
-      "timestamp": "2025-12-25T21:49:29.698591",
-      "strategy": "generative_ai",
-      "success": true,
-      "confidence": 0.8,
-      "response_time": 4.537473678588867
-    },
-    {
-      "timestamp": "2025-12-25T21:49:56.873610",
-      "strategy": "generative_ai",
-      "success": true,
-      "confidence": 0.8,
-      "response_time": 3.1049070358276367
-    },
-    {
-      "timestamp": "2025-12-25T21:50:11.618548",
+      "timestamp": "2025-12-30T14:32:56.919063",
       "strategy": "rule_based",
       "success": true,
       "confidence": 0.8,
-      "response_time": 0.008354425430297852
+      "response_time": 0.01097869873046875
     },
     {
-      "timestamp": "2025-12-25T21:50:25.832534",
+      "timestamp": "2025-12-30T14:33:06.154400",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.005877017974853516
+    },
+    {
+      "timestamp": "2025-12-30T14:33:22.080847",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 2.0495662689208984
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.667585",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 2.2269766330718994
+    },
+    {
+      "timestamp": "2025-12-30T14:36:02.628863",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 1.389173984527588
+    },
+    {
+      "timestamp": "2025-12-30T14:36:02.654232",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.002428293228149414
+    },
+    {
+      "timestamp": "2025-12-30T14:51:42.937437",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 6.81403374671936
+    },
+    {
+      "timestamp": "2025-12-30T14:51:42.964091",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.004445791244506836
+    },
+    {
+      "timestamp": "2025-12-30T14:52:33.408456",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 7.695446968078613
+    },
+    {
+      "timestamp": "2025-12-30T14:52:52.852357",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 7.215484857559204
+    },
+    {
+      "timestamp": "2025-12-30T14:53:37.891009",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 39.7629280090332
+    },
+    {
+      "timestamp": "2025-12-30T14:57:46.251643",
       "strategy": "generative_ai",
       "success": true,
       "confidence": 0.8,
-      "response_time": 2.752847194671631
+      "response_time": 3.198207378387451
     },
     {
-      "timestamp": "2025-12-25T21:50:45.293729",
+      "timestamp": "2025-12-30T14:57:46.295268",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.008602142333984375
+    },
+    {
+      "timestamp": "2025-12-30T14:58:32.579242",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 9.911559820175171
+    },
+    {
+      "timestamp": "2025-12-30T15:01:34.972363",
       "strategy": "generative_ai",
       "success": true,
       "confidence": 0.8,
-      "response_time": 5.125065088272095
+      "response_time": 3.4302608966827393
     },
     {
-      "timestamp": "2025-12-25T21:51:00.969542",
+      "timestamp": "2025-12-30T15:01:35.047845",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.0194854736328125
+    },
+    {
+      "timestamp": "2025-12-30T15:02:23.529711",
       "strategy": "generative_ai",
       "success": true,
       "confidence": 0.8,
-      "response_time": 5.591608762741089
+      "response_time": 9.306208610534668
     },
     {
-      "timestamp": "2025-12-25T21:51:25.423806",
+      "timestamp": "2025-12-30T15:03:03.652846",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 15.18245267868042
+    },
+    {
+      "timestamp": "2025-12-30T15:03:21.057686",
       "strategy": "rule_based",
       "success": true,
       "confidence": 0.8,
-      "response_time": 0.00856471061706543
+      "response_time": 0.009423494338989258
     },
     {
-      "timestamp": "2025-12-25T21:51:53.259550",
+      "timestamp": "2025-12-30T15:03:37.886083",
       "strategy": "generative_ai",
       "success": true,
       "confidence": 0.8,
-      "response_time": 3.2191920280456543
+      "response_time": 3.18353271484375
     },
     {
-      "timestamp": "2025-12-25T21:53:58.889934",
+      "timestamp": "2025-12-30T15:05:02.927240",
       "strategy": "generative_ai",
       "success": true,
       "confidence": 0.8,
-      "response_time": 4.617515802383423
+      "response_time": 12.165369749069214
     },
     {
-      "timestamp": "2025-12-25T21:54:22.193509",
+      "timestamp": "2026-01-06T17:16:13.301596",
       "strategy": "generative_ai",
       "success": true,
       "confidence": 0.8,
-      "response_time": 6.010078191757202
+      "response_time": 7.4623472690582275
     },
     {
-      "timestamp": "2025-12-25T21:55:56.126574",
+      "timestamp": "2026-01-06T17:16:13.352986",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.009293079376220703
+    },
+    {
+      "timestamp": "2026-01-06T17:17:22.687136",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 21.62059497833252
+    },
+    {
+      "timestamp": "2026-01-06T17:17:58.467567",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 23.334007501602173
+    },
+    {
+      "timestamp": "2026-01-06T17:18:10.267462",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 19.88125514984131
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.912830",
       "strategy": "rule_based",
       "success": true,
       "confidence": 0.8,
-      "response_time": 0.006764888763427734
+      "response_time": 0.010461091995239258
     },
     {
-      "timestamp": "2025-12-25T21:56:08.085811",
-      "strategy": "rule_based",
-      "success": true,
-      "confidence": 0.8,
-      "response_time": 0.00950312614440918
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.853668",
+      "timestamp": "2026-01-06T17:19:26.530255",
       "strategy": "generative_ai",
       "success": true,
       "confidence": 0.8,
-      "response_time": 6.628645896911621
+      "response_time": 25.530510902404785
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.685768",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 3.617971658706665
+    },
+    {
+      "timestamp": "2026-01-06T17:55:04.630782",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 8.69308614730835
+    },
+    {
+      "timestamp": "2026-01-06T17:55:04.699841",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.015970468521118164
+    },
+    {
+      "timestamp": "2026-01-06T17:55:47.523096",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 2.3752670288085938
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.765834",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 10.232993125915527
+    },
+    {
+      "timestamp": "2026-01-06T17:59:51.171730",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 26.138734102249146
+    },
+    {
+      "timestamp": "2026-01-06T18:01:01.332389",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 8.297754526138306
+    },
+    {
+      "timestamp": "2026-01-06T18:01:53.760207",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 6.987074375152588
+    },
+    {
+      "timestamp": "2026-01-06T18:15:18.548453",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 8.780227184295654
+    },
+    {
+      "timestamp": "2026-01-06T18:15:18.601854",
+      "strategy": "faq",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.009464025497436523
+    },
+    {
+      "timestamp": "2026-01-06T18:16:33.378666",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 32.93800735473633
+    },
+    {
+      "timestamp": "2026-01-06T18:16:55.878406",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 8.468679428100586
+    },
+    {
+      "timestamp": "2026-01-06T18:17:47.988883",
+      "strategy": "generative_ai",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 26.7204487323761
+    },
+    {
+      "timestamp": "2026-01-06T18:18:24.054900",
+      "strategy": "rule_based",
+      "success": true,
+      "confidence": 0.8,
+      "response_time": 0.022693634033203125
     }
   ],
   "failed_responses": [],
   "user_interactions": {
     "test_user": {
+      "total_messages": 46,
+      "first_interaction": "2025-12-30T14:30:31.033854",
+      "last_interaction": "2026-01-06T18:15:28.952149",
+      "intents": {
+        "question": 21
+      },
+      "avg_sentiment": 0.0,
+      "sentiment_sum": 0.0
+    },
+    "user_20251230_143223": {
       "total_messages": 5,
-      "first_interaction": "2025-12-25T21:49:25.019905",
-      "last_interaction": "2025-12-25T21:49:29.689780",
+      "first_interaction": "2025-12-30T14:32:48.733515",
+      "last_interaction": "2025-12-30T14:33:41.646270",
       "intents": {
         "greeting": 2,
+        "question": 3
+      },
+      "avg_sentiment": 0.0,
+      "sentiment_sum": 0.0
+    },
+    "user_20251230_145210": {
+      "total_messages": 3,
+      "first_interaction": "2025-12-30T14:52:33.390414",
+      "last_interaction": "2025-12-30T14:53:37.880587",
+      "intents": {
         "question": 1,
-        "general": 1,
-        "help": 1
+        "general": 2
+      },
+      "avg_sentiment": 0.0,
+      "sentiment_sum": 0.0
+    },
+    "user_20251230_145804": {
+      "total_messages": 1,
+      "first_interaction": "2025-12-30T14:58:32.570239",
+      "last_interaction": "2025-12-30T14:58:32.570272",
+      "intents": {
+        "question": 1
+      },
+      "avg_sentiment": 0.0,
+      "sentiment_sum": 0.0
+    },
+    "user_20251230_150154": {
+      "total_messages": 5,
+      "first_interaction": "2025-12-30T15:02:23.505500",
+      "last_interaction": "2025-12-30T15:05:02.914185",
+      "intents": {
+        "question": 3,
+        "greeting": 1,
+        "general": 1
       },
       "avg_sentiment": -0.1,
       "sentiment_sum": -0.5
     },
-    "user_20251225_214940": {
-      "total_messages": 12,
-      "first_interaction": "2025-12-25T21:49:56.869691",
-      "last_interaction": "2025-12-25T21:56:55.848539",
+    "user_20260106_171635": {
+      "total_messages": 5,
+      "first_interaction": "2026-01-06T17:17:22.673116",
+      "last_interaction": "2026-01-06T17:20:40.672110",
       "intents": {
-        "question": 5,
-        "greeting": 3,
-        "general": 3,
-        "compliment": 1
+        "question": 3,
+        "greeting": 1,
+        "general": 1
       },
-      "avg_sentiment": 0.039583333333333325,
-      "sentiment_sum": 0.47499999999999987
+      "avg_sentiment": -0.1,
+      "sentiment_sum": -0.5
+    },
+    "user_20260106_171629": {
+      "total_messages": 1,
+      "first_interaction": "2026-01-06T17:18:10.257064",
+      "last_interaction": "2026-01-06T17:18:10.257127",
+      "intents": {
+        "question": 1
+      },
+      "avg_sentiment": 0.0,
+      "sentiment_sum": 0.0
+    },
+    "user_20260106_175528": {
+      "total_messages": 5,
+      "first_interaction": "2026-01-06T17:55:47.509311",
+      "last_interaction": "2026-01-06T18:01:53.749185",
+      "intents": {
+        "general": 2,
+        "question": 3
+      },
+      "avg_sentiment": -0.09999999999999999,
+      "sentiment_sum": -0.49999999999999994
+    },
+    "user_20260106_181539": {
+      "total_messages": 4,
+      "first_interaction": "2026-01-06T18:16:33.362311",
+      "last_interaction": "2026-01-06T18:18:24.038096",
+      "intents": {
+        "question": 1,
+        "general": 2,
+        "greeting": 1
+      },
+      "avg_sentiment": 0.15,
+      "sentiment_sum": 0.6
     }
   }
 }

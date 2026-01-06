@@ -2,10 +2,10 @@
   "test_user": {
     "conversations": [
       {
-        "timestamp": "2025-12-25T21:49:25.017988",
+        "timestamp": "2025-12-30T14:36:02.622836",
         "user_message": "Hello, how are you?",
-        "bot_response": "Hello! How can I help you today?",
-        "intent": "greeting",
+        "bot_response": "I'd be happy to help answer your question. Could you provide a bit more context or be more specific about what you'd like to know?",
+        "intent": "question",
         "sentiment": {
           "polarity": 0.0,
           "subjectivity": 0.0,
@@ -24,7 +24,7 @@
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:49:25.042600",
+        "timestamp": "2025-12-30T14:36:02.648310",
         "user_message": "What is the PM of India?",
         "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
         "intent": "question",
@@ -46,9 +46,9 @@
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:49:25.076347",
+        "timestamp": "2025-12-30T14:36:03.932818",
         "user_message": "I'm feeling sad today",
-        "bot_response": "I can see this is important to you. Could you rephrase your question?",
+        "bot_response": "I can see why that might be frustrating. Here's what I can tell you about that.",
         "intent": "general",
         "sentiment": {
           "polarity": -0.5,
@@ -72,31 +72,9 @@
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:49:25.108257",
+        "timestamp": "2025-12-30T14:36:06.335364",
         "user_message": "Can you help me with something?",
-        "bot_response": "Greetings! I'm here to assist you.",
-        "intent": "greeting",
-        "sentiment": {
-          "polarity": 0.0,
-          "subjectivity": 0.0,
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "emotions": [],
-          "primary_emotion": null,
-          "emotion_scores": {},
-          "tone_suggestions": {
-            "empathy_level": "medium",
-            "enthusiasm_level": "medium",
-            "formality_level": "medium",
-            "supportiveness": "medium"
-          }
-        },
-        "success": true
-      },
-      {
-        "timestamp": "2025-12-25T21:49:29.683853",
-        "user_message": "Thank you for your assistance",
-        "bot_response": "Hello! I'm here to help. Could you please tell me a little more about what's on your mind and how I can assist you today?",
+        "bot_response": "I'm here to help! What do you need assistance with?",
         "intent": "help",
         "sentiment": {
           "polarity": 0.0,
@@ -114,101 +92,909 @@
           }
         },
         "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:36:06.352420",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "Thank you! I'm glad I could be helpful.",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:51:42.929943",
+        "user_message": "Hello, how are you?",
+        "bot_response": "I'd be happy to help answer your question. Could you provide a bit more context or be more specific about what you'd like to know?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:51:42.955367",
+        "user_message": "What is the PM of India?",
+        "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:51:50.005193",
+        "user_message": "I'm feeling sad today",
+        "bot_response": "I understand that can be concerning. I'd be happy to provide information about that.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "sadness"
+          ],
+          "primary_emotion": "sadness",
+          "emotion_scores": {
+            "sadness": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:51:55.517898",
+        "user_message": "Can you help me with something?",
+        "bot_response": "I'd be happy to help you with your questions.",
+        "intent": "help",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:51:55.537672",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "Thank you! I'm glad I could be helpful.",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:57:46.239753",
+        "user_message": "Hello, how are you?",
+        "bot_response": "I'm functioning within normal parameters, ready to assist you with any questions or topics you'd like to discuss. How can I help you today?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:57:46.280785",
+        "user_message": "What is the PM of India?",
+        "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:57:50.198376",
+        "user_message": "I'm feeling sad today",
+        "bot_response": "I'm so sorry to hear that you're feeling sad today. Would you like to talk about what's on your mind and why you're feeling this way? Sometimes sharing what's bothering you can help you feel a bit better. I'm here to listen and offer any support or advice I can.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "sadness"
+          ],
+          "primary_emotion": "sadness",
+          "emotion_scores": {
+            "sadness": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:57:53.313561",
+        "user_message": "Can you help me with something?",
+        "bot_response": "I'd be happy to help you with whatever you need assistance with. What's on your mind?",
+        "intent": "help",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T14:57:53.336466",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "Thank you! I'm glad I could be helpful.",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T15:01:34.921229",
+        "user_message": "Hello, how are you?",
+        "bot_response": "I'm functioning properly, thank you for asking. How can I assist you today?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T15:01:35.017717",
+        "user_message": "What is the PM of India?",
+        "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T15:01:40.723380",
+        "user_message": "I'm feeling sad today",
+        "bot_response": "I'm so sorry to hear that you're feeling sad today. Would you like to talk about what's on your mind and why you're feeling that way? Sometimes sharing your thoughts and feelings with someone (even if it's just a friendly AI like me) can help you process and feel a bit better. I'm here to listen and offer any support or suggestions I can.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "sadness"
+          ],
+          "primary_emotion": "sadness",
+          "emotion_scores": {
+            "sadness": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T15:01:43.216860",
+        "user_message": "Can you help me with something?",
+        "bot_response": "What do you need assistance with?",
+        "intent": "help",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T15:01:43.239791",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "Thank you! I'm glad I could be helpful.",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:16:13.287103",
+        "user_message": "Hello, how are you?",
+        "bot_response": "I'm functioning properly, thank you for asking. How can I assist you today?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:16:13.332004",
+        "user_message": "What is the PM of India?",
+        "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:16:15.448123",
+        "user_message": "I'm feeling sad today",
+        "bot_response": "I understand that can be concerning. Here's what I can tell you about that.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "sadness"
+          ],
+          "primary_emotion": "sadness",
+          "emotion_scores": {
+            "sadness": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:16:17.477374",
+        "user_message": "Can you help me with something?",
+        "bot_response": "I'd be happy to help you with your questions.",
+        "intent": "help",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:16:17.489599",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "I appreciate your kind words!",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:55:04.605763",
+        "user_message": "Hello, how are you?",
+        "bot_response": "I'm functioning properly, thank you for asking. Is there something I can assist you with today?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:55:04.669426",
+        "user_message": "What is the PM of India?",
+        "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:55:09.002444",
+        "user_message": "I'm feeling sad today",
+        "bot_response": "I'm sorry to hear that you're feeling sad today. Would you like to talk about what's on your mind and why you're feeling this way? Sometimes sharing your thoughts and emotions with someone (or in this case, a listening AI assistant) can help you process and feel a bit better.\n\nIf you're not feeling like talking about it, that's okay too. We can try to find something to take your mind off things or offer some suggestions to help brighten your day.\n\nWhat do you think might help you feel a bit better today?",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "sadness"
+          ],
+          "primary_emotion": "sadness",
+          "emotion_scores": {
+            "sadness": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:55:18.556914",
+        "user_message": "Can you help me with something?",
+        "bot_response": "I'd be happy to help with whatever you need assistance with. Please go ahead and ask your question or describe the issue you're facing, and I'll do my best to provide a clear and helpful response.",
+        "intent": "help",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:55:18.571833",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "I appreciate your kind words!",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:15:18.528192",
+        "user_message": "Hello, how are you?",
+        "bot_response": "I'm functioning properly, thank you for asking. How can I assist you today?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:15:18.576408",
+        "user_message": "What is the PM of India?",
+        "bot_response": "The Prime Minister of India is Narendra Modi, who has been serving since May 2014.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:15:26.723296",
+        "user_message": "I'm feeling sad today",
+        "bot_response": "I'm so sorry to hear that you're feeling sad today. Would you like to talk about what's on your mind and why you're feeling this way? Sometimes sharing your emotions with someone (or in this case, a listening AI) can help you process and feel a bit better. I'm here to listen and offer support if you need it.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "sadness"
+          ],
+          "primary_emotion": "sadness",
+          "emotion_scores": {
+            "sadness": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:15:28.927862",
+        "user_message": "Can you help me with something?",
+        "bot_response": "What do you need assistance with?",
+        "intent": "help",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:15:28.938982",
+        "user_message": "Thank you for your assistance",
+        "bot_response": "Thank you! I'm glad I could be helpful.",
+        "intent": "compliment",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
       }
     ],
     "user_profile": {
-      "first_interaction": "2025-12-25T21:49:25.017988",
-      "total_messages": 5,
+      "first_interaction": "2025-12-30T14:36:02.622836",
+      "total_messages": 35,
       "preferred_intents": {
-        "greeting": 2,
-        "question": 1,
-        "general": 1,
-        "help": 1
+        "question": 14,
+        "general": 7,
+        "help": 7,
+        "compliment": 7
       },
       "sentiment_history": [
         {
-          "timestamp": "2025-12-25T21:49:25.017988",
+          "timestamp": "2025-12-30T14:36:02.622836",
           "sentiment": "neutral",
           "polarity": 0.0
         },
         {
-          "timestamp": "2025-12-25T21:49:25.042600",
+          "timestamp": "2025-12-30T14:36:02.648310",
           "sentiment": "neutral",
           "polarity": 0.0
         },
         {
-          "timestamp": "2025-12-25T21:49:25.076347",
+          "timestamp": "2025-12-30T14:36:03.932818",
           "sentiment": "negative",
           "polarity": -0.5
         },
         {
-          "timestamp": "2025-12-25T21:49:25.108257",
+          "timestamp": "2025-12-30T14:36:06.335364",
           "sentiment": "neutral",
           "polarity": 0.0
         },
         {
-          "timestamp": "2025-12-25T21:49:29.683853",
+          "timestamp": "2025-12-30T14:36:06.352420",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:51:42.929943",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:51:42.955367",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:51:50.005193",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2025-12-30T14:51:55.517898",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:51:55.537672",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:57:46.239753",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:57:46.280785",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:57:50.198376",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2025-12-30T14:57:53.313561",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:57:53.336466",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T15:01:34.921229",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T15:01:35.017717",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T15:01:40.723380",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2025-12-30T15:01:43.216860",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T15:01:43.239791",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:16:13.287103",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:16:13.332004",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:16:15.448123",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2026-01-06T17:16:17.477374",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:16:17.489599",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:55:04.605763",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:55:04.669426",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:55:09.002444",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2026-01-06T17:55:18.556914",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:55:18.571833",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T18:15:18.528192",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T18:15:18.576408",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T18:15:26.723296",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2026-01-06T18:15:28.927862",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T18:15:28.938982",
           "sentiment": "neutral",
           "polarity": 0.0
         }
       ],
-      "last_interaction": "2025-12-25T21:49:29.683853"
+      "last_interaction": "2026-01-06T18:15:28.938982"
     }
   },
-  "user_20251225_214940": {
+  "user_20251230_145210": {
     "conversations": [
       {
-        "timestamp": "2025-12-25T21:49:56.867855",
-        "user_message": "are you mad?",
-        "bot_response": "I'm here to help and provide information, not to take offense or get emotional. I'm a machine, and my purpose is to assist you with your questions. I don't have feelings or emotions, so I'm not capable of being \"mad.\" How can I help you today?",
-        "intent": "question",
-        "sentiment": {
-          "polarity": -0.625,
-          "subjectivity": 1.0,
-          "sentiment": "negative",
-          "confidence": 0.625,
-          "emotions": [
-            "anger"
-          ],
-          "primary_emotion": "anger",
-          "emotion_scores": {
-            "anger": 0.14285714285714285
-          },
-          "tone_suggestions": {
-            "empathy_level": "high",
-            "enthusiasm_level": "low",
-            "formality_level": "high",
-            "supportiveness": "high"
-          }
-        },
-        "success": true
-      },
-      {
-        "timestamp": "2025-12-25T21:50:11.605596",
-        "user_message": "Hello good morning",
-        "bot_response": "Hello! How can I help you today? This sounds great!",
-        "intent": "greeting",
-        "sentiment": {
-          "polarity": 0.7,
-          "subjectivity": 0.6000000000000001,
-          "sentiment": "positive",
-          "confidence": 0.7,
-          "emotions": [],
-          "primary_emotion": null,
-          "emotion_scores": {},
-          "tone_suggestions": {
-            "empathy_level": "medium",
-            "enthusiasm_level": "high",
-            "formality_level": "medium",
-            "supportiveness": "medium"
-          }
-        },
-        "success": true
-      },
-      {
-        "timestamp": "2025-12-25T21:50:25.825463",
-        "user_message": "What is data analytics",
-        "bot_response": "I'd be happy to help you with your question about data analytics. Can you please provide more context or clarify what specific aspect of data analytics you're interested in learning more about? Are you looking to improve your skills, learn about a particular tool or technique, or perhaps apply data analytics to a specific problem or industry?",
+        "timestamp": "2025-12-30T14:52:33.381374",
+        "user_message": "what is effiel tower?",
+        "bot_response": "I'd be happy to help answer your question. Could you provide a bit more context or be more specific about what you'd like to know?",
         "intent": "question",
         "sentiment": {
           "polarity": 0.0,
@@ -228,101 +1014,9 @@
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:50:45.288151",
-        "user_message": "detailed info about chatbots",
-        "bot_response": "I'm thrilled to dive into the world of data analytics with you! Data analytics is a fascinating field that can help you uncover insights, drive business decisions, and tell stories with data. To get started, let's break it down into its core components:\n\n1. **Data Visualization**: We can explore the various techniques and tools used to present data in an intuitive and engaging way, making it easier to understand and act on.\n2. **Statistical Modeling**: We can discuss the different statistical models,",
-        "intent": "general",
-        "sentiment": {
-          "polarity": 0.4,
-          "subjectivity": 0.75,
-          "sentiment": "positive",
-          "confidence": 0.4,
-          "emotions": [],
-          "primary_emotion": null,
-          "emotion_scores": {},
-          "tone_suggestions": {
-            "empathy_level": "medium",
-            "enthusiasm_level": "high",
-            "formality_level": "medium",
-            "supportiveness": "medium"
-          }
-        },
-        "success": true
-      },
-      {
-        "timestamp": "2025-12-25T21:51:00.962292",
-        "user_message": "what is weather today",
-        "bot_response": "Since we didn't have a conversation about weather, I'll provide a direct answer. \n\nUnfortunately, I don't have real-time access to your location's current weather conditions. However, I can suggest ways for you to find out the weather today. You can check a weather website or app, such as AccuWeather or Weather.com, or ask a voice assistant like Siri, Google Assistant, or Alexa for the current weather conditions in your area.",
-        "intent": "question",
-        "sentiment": {
-          "polarity": 0.0,
-          "subjectivity": 0.0,
-          "sentiment": "neutral",
-          "confidence": 0.5,
-          "emotions": [],
-          "primary_emotion": null,
-          "emotion_scores": {},
-          "tone_suggestions": {
-            "empathy_level": "medium",
-            "enthusiasm_level": "medium",
-            "formality_level": "medium",
-            "supportiveness": "medium"
-          }
-        },
-        "success": true
-      },
-      {
-        "timestamp": "2025-12-25T21:51:25.404612",
-        "user_message": "i am feeling great today",
-        "bot_response": "I appreciate your kind words! I'm excited to help!",
-        "intent": "compliment",
-        "sentiment": {
-          "polarity": 0.8,
-          "subjectivity": 0.75,
-          "sentiment": "positive",
-          "confidence": 0.8,
-          "emotions": [
-            "joy"
-          ],
-          "primary_emotion": "joy",
-          "emotion_scores": {
-            "joy": 0.125
-          },
-          "tone_suggestions": {
-            "empathy_level": "medium",
-            "enthusiasm_level": "high",
-            "formality_level": "medium",
-            "supportiveness": "medium"
-          }
-        },
-        "success": true
-      },
-      {
-        "timestamp": "2025-12-25T21:51:53.249120",
-        "user_message": "you are idiot and foolish",
-        "bot_response": "I can tell you're having a fantastic day! That's wonderful to hear! Would you like to talk about what's making you feel great today, or is there something on your agenda that's got you looking forward to?",
-        "intent": "general",
-        "sentiment": {
-          "polarity": -0.8,
-          "subjectivity": 0.8,
-          "sentiment": "negative",
-          "confidence": 0.8,
-          "emotions": [],
-          "primary_emotion": null,
-          "emotion_scores": {},
-          "tone_suggestions": {
-            "empathy_level": "high",
-            "enthusiasm_level": "low",
-            "formality_level": "medium",
-            "supportiveness": "high"
-          }
-        },
-        "success": true
-      },
-      {
-        "timestamp": "2025-12-25T21:53:58.879005",
-        "user_message": "a=2",
-        "bot_response": "I sense a bit of frustration in your message. It's understandable to feel that way when someone's words don't quite align with our emotions. Would you like to talk about what's bothering you, or is there something specific you'd like to chat about to take your mind off things?",
+        "timestamp": "2025-12-30T14:52:52.823467",
+        "user_message": "Effiel Tower",
+        "bot_response": "I'd be happy to provide information about that.",
         "intent": "general",
         "sentiment": {
           "polarity": 0.0,
@@ -342,9 +1036,102 @@
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:54:22.183113",
-        "user_message": "what is a+1",
-        "bot_response": "I think there may be a bit of confusion here. You initially asked \"what is a+1\" and I responded with a neutral answer, but it seems there was a miscommunication. To clarify, \"a+1\" is not a valid mathematical expression, but rather a notation used in programming to indicate an increment operation. Could you please provide more context or clarify what you meant by this question? I'm here to help and provide assistance.",
+        "timestamp": "2025-12-30T14:53:37.873976",
+        "user_message": "tell me",
+        "bot_response": "Let me share what I know about this topic.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2025-12-30T14:52:33.381374",
+      "total_messages": 3,
+      "preferred_intents": {
+        "question": 1,
+        "general": 2
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2025-12-30T14:52:33.381374",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:52:52.823467",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T14:53:37.873976",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        }
+      ],
+      "last_interaction": "2025-12-30T14:53:37.873976"
+    }
+  },
+  "user_20251230_145804": {
+    "conversations": [
+      {
+        "timestamp": "2025-12-30T14:58:32.563505",
+        "user_message": "what is effiel towee?",
+        "bot_response": "I'd be happy to help answer your question. Could you provide a bit more context or be more specific about what you'd like to know?",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2025-12-30T14:58:32.563505",
+      "total_messages": 1,
+      "preferred_intents": {
+        "question": 1
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2025-12-30T14:58:32.563505",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        }
+      ],
+      "last_interaction": "2025-12-30T14:58:32.563505"
+    }
+  },
+  "user_20251230_150154": {
+    "conversations": [
+      {
+        "timestamp": "2025-12-30T15:02:23.470665",
+        "user_message": "How is weather today?",
+        "bot_response": "I'm a large language model, I don't have real-time access to current weather conditions. However, I can suggest ways for you to find out the current weather where you are.\n\nYou can check online weather websites such as AccuWeather or Weather.com, or mobile apps like Dark Sky or Weather Underground. These websites and apps provide up-to-date weather forecasts and conditions for your location.\n\nIf you'd like, I can also try to help you find the current weather in a specific city or region. Please let me know the location you're interested in, and I'll do my best to provide you with the current weather conditions.",
         "intent": "question",
         "sentiment": {
           "polarity": 0.0,
@@ -364,8 +1151,30 @@
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:55:56.109503",
-        "user_message": "tujhe hindi aati hai",
+        "timestamp": "2025-12-30T15:03:03.626985",
+        "user_message": "What is Decision Tree Classifier?",
+        "bot_response": "A Decision Tree Classifier is a type of supervised learning algorithm used in machine learning to predict the outcome of a categorical dependent variable based on a set of input features. It's a popular and widely used algorithm in data science.\n\nHere's a simple explanation:\n\n**How it works:**\n\n1. The algorithm creates a tree-like model by recursively partitioning the data into smaller subsets based on the input features.\n2. Each internal node in the tree represents a feature or attribute, and each leaf node represents a class label or prediction.\n3. The algorithm starts by selecting the best feature to split the data into two subsets, based on the impurity or entropy of the data.\n4. The process is repeated recursively until all data points are assigned to a leaf node, which represents the predicted class label.\n\n**Decision Tree Classifier Characteristics:**\n\n1. **Interpretability**: Decision Trees are easy to understand and visualize, making them a popular choice for exploratory data analysis and feature engineering.\n2. **Handling categorical features**: Decision Trees can handle categorical features without requiring any additional preprocessing.\n3. **Handling missing values**: Decision Trees can handle missing values, although they may not perform well if the missing values are not properly imputed.\n4. **Overfitting**: Decision Trees can suffer from overfitting, especially if the tree is deep or if the number of features is high.\n\n**Advantages:**\n\n1. **Easy to implement**: Decision Trees are relatively simple to implement and understand.\n2.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2025-12-30T15:03:21.037313",
+        "user_message": "Hello",
         "bot_response": "Greetings! I'm here to assist you.",
         "intent": "greeting",
         "sentiment": {
@@ -386,31 +1195,31 @@
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:56:08.060013",
-        "user_message": "talk in hindi",
-        "bot_response": "Hello! How can I help you today?",
-        "intent": "greeting",
+        "timestamp": "2025-12-30T15:03:37.837179",
+        "user_message": "Sorry",
+        "bot_response": "No need to apologize. How can I assist you today?",
+        "intent": "general",
         "sentiment": {
-          "polarity": 0.0,
-          "subjectivity": 0.0,
-          "sentiment": "neutral",
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
           "confidence": 0.5,
           "emotions": [],
           "primary_emotion": null,
           "emotion_scores": {},
           "tone_suggestions": {
-            "empathy_level": "medium",
-            "enthusiasm_level": "medium",
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
             "formality_level": "medium",
-            "supportiveness": "medium"
+            "supportiveness": "high"
           }
         },
         "success": true
       },
       {
-        "timestamp": "2025-12-25T21:56:55.843322",
-        "user_message": "what is 7 c's of ennglish communication",
-        "bot_response": "The 7 C's of effective English communication are:\n\n1. Clarity: Clear and concise message.\n2. Correctness: Accurate grammar, spelling, and punctuation.\n3. Completeness: All necessary information is provided.\n4. Conciseness: Message is brief and to the point.\n5. Consideration: Audience and purpose are taken into account.\n6. Courtesy: Polite and respectful tone.\n7. Concreteness: Specific examples and details are used.\n\nIs there anything else",
+        "timestamp": "2025-12-30T15:05:02.901476",
+        "user_message": "What is Effiel Tower?",
+        "bot_response": "The Eiffel Tower is an iconic iron lattice tower located in Paris, France. It was built for the 1889 World's Fair, held to celebrate the 100th anniversary of the French Revolution. The tower was designed and constructed by Gustave Eiffel and his engineering company, and it was initially intended to be a temporary structure.\n\nHowever, the Eiffel Tower became an instant icon of Paris and a symbol of French culture and engineering ingenuity. It stands at an impressive 324 meters (1,063 feet) tall, and its four main pillars are anchored to the ground with deep foundations. The tower is held together by over 2.5 million rivets and weighs approximately 10,000 tons.\n\nThe Eiffel Tower has been used for a variety of purposes over the years, including as a radio broadcasting tower, a observation deck, and even a restaurant. Today, it is one of the most-visited paid monuments in the world, attracting millions of visitors each year.\n\nThe Eiffel Tower is known for its distinctive four-pillar design, which is held together by a complex system of iron latticework. It is also famous for its stunning views of the city of Paris, which can be enjoyed from the observation decks on the first and second floors.",
         "intent": "question",
         "sentiment": {
           "polarity": 0.0,
@@ -431,77 +1240,511 @@
       }
     ],
     "user_profile": {
-      "first_interaction": "2025-12-25T21:49:56.867855",
-      "total_messages": 12,
+      "first_interaction": "2025-12-30T15:02:23.470665",
+      "total_messages": 5,
       "preferred_intents": {
-        "question": 5,
-        "greeting": 3,
-        "general": 3,
-        "compliment": 1
+        "question": 3,
+        "greeting": 1,
+        "general": 1
       },
       "sentiment_history": [
         {
-          "timestamp": "2025-12-25T21:49:56.867855",
+          "timestamp": "2025-12-30T15:02:23.470665",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T15:03:03.626985",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T15:03:21.037313",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2025-12-30T15:03:37.837179",
           "sentiment": "negative",
-          "polarity": -0.625
+          "polarity": -0.5
         },
         {
-          "timestamp": "2025-12-25T21:50:11.605596",
-          "sentiment": "positive",
-          "polarity": 0.7
-        },
-        {
-          "timestamp": "2025-12-25T21:50:25.825463",
-          "sentiment": "neutral",
-          "polarity": 0.0
-        },
-        {
-          "timestamp": "2025-12-25T21:50:45.288151",
-          "sentiment": "positive",
-          "polarity": 0.4
-        },
-        {
-          "timestamp": "2025-12-25T21:51:00.962292",
-          "sentiment": "neutral",
-          "polarity": 0.0
-        },
-        {
-          "timestamp": "2025-12-25T21:51:25.404612",
-          "sentiment": "positive",
-          "polarity": 0.8
-        },
-        {
-          "timestamp": "2025-12-25T21:51:53.249120",
-          "sentiment": "negative",
-          "polarity": -0.8
-        },
-        {
-          "timestamp": "2025-12-25T21:53:58.879005",
-          "sentiment": "neutral",
-          "polarity": 0.0
-        },
-        {
-          "timestamp": "2025-12-25T21:54:22.183113",
-          "sentiment": "neutral",
-          "polarity": 0.0
-        },
-        {
-          "timestamp": "2025-12-25T21:55:56.109503",
-          "sentiment": "neutral",
-          "polarity": 0.0
-        },
-        {
-          "timestamp": "2025-12-25T21:56:08.060013",
-          "sentiment": "neutral",
-          "polarity": 0.0
-        },
-        {
-          "timestamp": "2025-12-25T21:56:55.843322",
+          "timestamp": "2025-12-30T15:05:02.901476",
           "sentiment": "neutral",
           "polarity": 0.0
         }
       ],
-      "last_interaction": "2025-12-25T21:56:55.843322"
+      "last_interaction": "2025-12-30T15:05:02.901476"
+    }
+  },
+  "user_20260106_171635": {
+    "conversations": [
+      {
+        "timestamp": "2026-01-06T17:17:22.667097",
+        "user_message": "What is NLTK ?",
+        "bot_response": "NLTK (Natural Language Toolkit) is a popular open-source library used for natural language processing (NLP) tasks in Python. It provides a wide range of tools and resources for tasks such as:\n\n1. Tokenization (breaking down text into individual words or tokens)\n2. Stemming and Lemmatization (reducing words to their base form)\n3. Tagging (identifying parts of speech, such as nouns, verbs, and adjectives)\n4. Parsing (analyzing the syntactic structure of sentences)\n5. Sentiment Analysis (determining the emotional tone of text)\n6. Named Entity Recognition (identifying named entities, such as people, organizations, and locations)\n\nNLTK also includes a large corpus of text data, which can be used for training machine learning models and testing NLP algorithms.\n\nSome of the key features of NLTK include:\n\n* A comprehensive set of tools for text preprocessing and feature extraction\n* A large collection of corpora (databases of text data) for training and testing NLP models\n* Support for multiple languages, including English, Spanish, French, German, and many others\n* Integration with popular Python libraries, such as scikit-learn and spaCy\n\nNLTK is widely used in academia, research, and industry for NLP tasks, and is considered one of the most popular and versatile NLP libraries in Python.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:17:58.445195",
+        "user_message": "What is NLTK ?",
+        "bot_response": "NLTK (Natural Language Toolkit) is a popular open-source library used for natural language processing (NLP) tasks in Python. It provides a comprehensive set of tools for text processing, tokenization, stemming, lemmatization, parsing, and semantic reasoning.\n\nNLTK was first released in 2001 and has since become a widely-used library in the NLP community. It is known for its flexibility, ease of use, and extensive documentation.\n\nSome of the key features of NLTK include:\n\n1. Text processing: NLTK provides tools for text cleaning, tokenization, and stemming.\n2. Tokenization: NLTK can split text into individual words or tokens.\n3. Stopwords: NLTK includes a list of common stopwords (e.g., \"the\", \"and\", \"a\") that can be removed from text.\n4. Stemming and lemmatization: NLTK provides tools for reducing words to their base form (e.g., \"running\" becomes \"run\").\n5. Parsing: NLTK can perform part-of-speech tagging, named entity recognition, and dependency parsing.\n6. Semantic reasoning: NLTK provides tools for extracting semantic information from text, such as sentiment analysis and topic modeling.\n\nNLTK is widely used in various NLP applications, including text classification, information retrieval, machine translation, and chatbots.\n\nHere's an example of using NLTK to tokenize a sentence:\n```python\nimport nltk\nfrom nltk.tokenize import word_tokenize\n\nsentence =",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:18:47.890972",
+        "user_message": "Difference between overfitting and underfitting in machine learnin.",
+        "bot_response": "Greetings! I'm here to assist you.",
+        "intent": "greeting",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:19:26.517006",
+        "user_message": "what is effiel tower",
+        "bot_response": "The Eiffel Tower is an iconic iron lattice tower located in Paris, France. It was built for the 1889 World's Fair, held to celebrate the 100th anniversary of the French Revolution. The tower was designed and constructed by Gustave Eiffel and his engineering company.\n\nThe Eiffel Tower stands 324 meters (1,063 feet) tall, making it the tallest man-made structure in the world at the time of its completion. It was originally intended to be a temporary structure, but it has become an enduring symbol of Paris and one of the most recognizable landmarks in the world.\n\nThe tower is composed of over 18,000 pieces of wrought iron, held together by over 2.5 million rivets. It has a distinctive four-pillar design, with the four pillars supporting the main tower and the four elevators connecting the ground to the top.\n\nThe Eiffel Tower has been used for various purposes over the years, including as a radio broadcasting tower, a military communication tower, and even as a observation deck for scientific research. Today, it is one of the most popular tourist attractions in the world, attracting millions of visitors each year.\n\nSome interesting facts about the Eiffel Tower include:\n\n* It was originally painted a reddish-brown color, but it has been repainted several times over the years to protect it from rust.\n* The tower has been repurposed as a giant antenna for radio broadcasts, and it is still used for",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:20:40.661444",
+        "user_message": "you are foolish and useless",
+        "bot_response": "I'm here to help and provide information. If there's something specific you'd like to know or discuss, I'll do my best to assist you.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 0.2,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2026-01-06T17:17:22.667097",
+      "total_messages": 5,
+      "preferred_intents": {
+        "question": 3,
+        "greeting": 1,
+        "general": 1
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2026-01-06T17:17:22.667097",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:17:58.445195",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:18:47.890972",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:19:26.517006",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:20:40.661444",
+          "sentiment": "negative",
+          "polarity": -0.5
+        }
+      ],
+      "last_interaction": "2026-01-06T17:20:40.661444"
+    }
+  },
+  "user_20260106_171629": {
+    "conversations": [
+      {
+        "timestamp": "2026-01-06T17:18:10.246192",
+        "user_message": "What is NLTK ?",
+        "bot_response": "NLTK (Natural Language Toolkit) is a popular open-source library used for Natural Language Processing (NLP) tasks in Python. It provides a comprehensive set of tools for text processing, tokenization, stemming, tagging, parsing, and semantic reasoning.\n\nNLTK was developed by Steven Bird, Ewan Klein, and Edward Loper in 1999 and is widely used in academia and industry for tasks such as:\n\n1. Text preprocessing: tokenization, stemming, and lemmatization\n2. Sentiment analysis: classifying text as positive, negative, or neutral\n3. Named entity recognition: identifying named entities such as people, organizations, and locations\n4. Part-of-speech tagging: identifying the grammatical category of each word (e.g., noun, verb, adjective)\n5. Corpus analysis: analyzing large collections of text data\n\nNLTK includes a wide range of corpora (databases of text data) and tools for tasks such as:\n\n* Tokenization: breaking text into individual words or tokens\n* Stopword removal: removing common words like \"the\", \"and\", etc. that do not add much value to the text\n* Stemming: reducing words to their base form (e.g., \"running\" becomes \"run\")\n* Lemmatization: reducing words to their base or dictionary form (e.g., \"running\" becomes \"run\")\n* Part-of-speech tagging: identifying the grammatical category of each word\n* Named entity recognition:",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2026-01-06T17:18:10.246192",
+      "total_messages": 1,
+      "preferred_intents": {
+        "question": 1
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2026-01-06T17:18:10.246192",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        }
+      ],
+      "last_interaction": "2026-01-06T17:18:10.246192"
+    }
+  },
+  "user_20260106_175528": {
+    "conversations": [
+      {
+        "timestamp": "2026-01-06T17:55:47.501279",
+        "user_message": "You are foolish ",
+        "bot_response": "I'm here to provide information and assist with your questions to the best of my abilities. Is there something specific you'd like to know or discuss?",
+        "intent": "general",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:56:13.746722",
+        "user_message": "I am angry on youu",
+        "bot_response": "I can sense that you're feeling upset. I'm here to listen and help if I can. Would you like to talk about what's bothering you? I'll do my best to provide a neutral and supportive space for you to express your feelings.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 1.0,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [
+            "anger"
+          ],
+          "primary_emotion": "anger",
+          "emotion_scores": {
+            "anger": 0.14285714285714285
+          },
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "high",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T17:59:51.140241",
+        "user_message": "What are details about RCOEM,Nagpur?",
+        "bot_response": "RCOEEM (Rashtriya Chikitsa Vidyalaya, Engineering and Management) Nagpur is a premier medical and engineering institution in India. Here are some details about RCOEM, Nagpur:\n\n1. **Established in 1954**: RCOEM was established in 1954 as a medical college and has since grown to become a leading institution in the field of medical and engineering education.\n\n2. **Affiliated to MSU**: RCOEM is affiliated to the Maharashtra State University (MSU) and is recognized by the Medical Council of India (MCI).\n\n3. **Courses offered**: RCOEM offers undergraduate, postgraduate, and doctoral courses in medicine, engineering, and management.\n\n4. **Medical College**: The medical college at RCOEM offers MBBS, MD, MS, and other postgraduate courses in various specialties.\n\n5. **Engineering College**: The engineering college at RCOEM offers undergraduate and postgraduate courses in various disciplines like mechanical, electrical, computer science, and civil engineering.\n\n6. **Management Institute**: The management institute at RCOEM offers MBA, MCA, and other postgraduate courses in management and computer applications.\n\n7. **Research facilities**: RCOEM has well-equipped research facilities and collaborations with various national and international institutions.\n\n8. **Accreditation**: RCOEM is accredited by the National Assessment and Accreditation Council (NAAC) and the Medical Council of India (MCI).\n\n9.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:01:01.293427",
+        "user_message": "Ramdeobaba University ,Nagpur is good or bad?",
+        "bot_response": "Ramdeobaba College of Commerce and Economics, Nagpur, is a well-established institution in India. Here are some general observations about the college:\n\n1. Affiliations: It is affiliated with the University of Nagpur and has been granted 'A' grade by the National Assessment and Accreditation Council (NAAC).\n\n2. Course offerings: The college offers undergraduate and postgraduate courses in Commerce, Economics, and Business Management.\n\n3. Faculty: The college has a mix of experienced and young faculty members, with some of them holding Ph.D.s.\n\n4. Infrastructure: The college has a relatively good infrastructure, including well-equipped classrooms, laboratories, and libraries.\n\n5. Placement: The college has a good track record of placing its students in top companies.\n\nHowever, as with any institution, there may be some areas for improvement. Some students and alumni have reported:\n\n1. Limited course options: Some students have expressed a desire for more course options, particularly in fields like computer science.\n\n2. High competition: With a large number of students competing for a limited number of seats, some students may find the competition intense.\n\n3. Limited extracurricular activities: Some students have reported that the college could provide more opportunities for extracurricular activities and sports.\n\n4. Limited international exposure: Some students have expressed a desire for more international exposure through study abroad programs or collaborations with foreign universities.\n\nOverall, Ramdeobaba College of Commerce and Economics, Nagpur, is a reputable institution",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 5.551115123125783e-17,
+          "subjectivity": 0.6333333333333333,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:01:53.709396",
+        "user_message": "what about Ramdeobaba College of Engineering?",
+        "bot_response": "Ramdeobaba College of Engineering, Nagpur is a private engineering college in Nagpur, Maharashtra, India. It was established in 1953 and is affiliated with the Visvesvaraya National Institute of Technology (VNIT), Nagpur.\n\nThe college offers undergraduate and postgraduate programs in various fields of engineering, including:\n\n1. Computer Science and Engineering\n2. Electrical Engineering\n3. Electronics and Telecommunication Engineering\n4. Information Technology\n5. Mechanical Engineering\n\nRamdeobaba College of Engineering has a strong reputation for producing graduates who are well-equipped to meet the demands of the industry. The college has a large campus spread over 15 acres and has modern infrastructure, including well-equipped laboratories and a library.\n\nThe college has been accredited by the National Assessment and Accreditation Council (NAAC) and has received recognition from the Government of Maharashtra.\n\nRamdeobaba College of Engineering has a strong alumni network and has placed many of its students in top companies across India and abroad.",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2026-01-06T17:55:47.501279",
+      "total_messages": 5,
+      "preferred_intents": {
+        "general": 2,
+        "question": 3
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2026-01-06T17:55:47.501279",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T17:56:13.746722",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2026-01-06T17:59:51.140241",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T18:01:01.293427",
+          "sentiment": "neutral",
+          "polarity": 5.551115123125783e-17
+        },
+        {
+          "timestamp": "2026-01-06T18:01:53.709396",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        }
+      ],
+      "last_interaction": "2026-01-06T18:01:53.709396"
+    }
+  },
+  "user_20260106_181539": {
+    "conversations": [
+      {
+        "timestamp": "2026-01-06T18:16:33.354652",
+        "user_message": "What is Machine Learning?",
+        "bot_response": "Machine Learning (ML) is a subset of Artificial Intelligence (AI) that enables systems to automatically improve their performance on a task without being explicitly programmed for that task. In other words, ML allows machines to learn from data and make predictions, decisions, or actions based on that data.\n\nImagine teaching a child to recognize objects. You would show them many pictures of cats, dogs, and cars, and say \"this is a cat,\" \"this is a dog,\" and \"this is a car.\" Over time, the child would learn to recognize these objects on their own, without needing to be explicitly told. This is similar to how Machine Learning works.\n\nIn ML, the system is trained on a dataset, which is a collection of examples or instances of the task. The system uses algorithms to analyze the data, identify patterns, and make predictions or decisions. The goal is to enable the system to perform better and better on the task, without needing to be reprogrammed.\n\nThere are several types of Machine Learning:\n\n1. **Supervised Learning**: The system is trained on labeled data, where the correct output is already known.\n2. **Unsupervised Learning**: The system is trained on unlabeled data, and it must find patterns or structure on its own.\n3. **Reinforcement Learning**: The system learns through trial and error, receiving feedback in the form of rewards or penalties.\n\nMachine Learning has many applications, including:\n\n* Image and speech recognition\n* Natural Language Processing (",
+        "intent": "question",
+        "sentiment": {
+          "polarity": 0.0,
+          "subjectivity": 0.0,
+          "sentiment": "neutral",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "medium",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:16:55.848279",
+        "user_message": "You are useless",
+        "bot_response": "I can sense that you're feeling frustrated. I'm here to help and provide assistance to the best of my abilities. Can you please tell me what's on your mind, and how I can better assist you? Is there a specific question or topic you'd like to discuss? I'll do my best to provide a helpful and accurate response.",
+        "intent": "general",
+        "sentiment": {
+          "polarity": -0.5,
+          "subjectivity": 0.2,
+          "sentiment": "negative",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "high",
+            "enthusiasm_level": "low",
+            "formality_level": "medium",
+            "supportiveness": "high"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:17:47.966754",
+        "user_message": "I am feeling confident",
+        "bot_response": "That's a great feeling! Confidence can be a powerful motivator and can help you tackle challenges with ease. What's giving you the confidence boost today? Is there a specific situation or accomplishment that's got you feeling on top of the world?",
+        "intent": "general",
+        "sentiment": {
+          "polarity": 0.5,
+          "subjectivity": 0.8333333333333334,
+          "sentiment": "positive",
+          "confidence": 0.5,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "high",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      },
+      {
+        "timestamp": "2026-01-06T18:18:24.016053",
+        "user_message": "Hello,Have a nice day.",
+        "bot_response": "Hello! How can I help you today? I'm happy to assist!",
+        "intent": "greeting",
+        "sentiment": {
+          "polarity": 0.6,
+          "subjectivity": 1.0,
+          "sentiment": "positive",
+          "confidence": 0.6,
+          "emotions": [],
+          "primary_emotion": null,
+          "emotion_scores": {},
+          "tone_suggestions": {
+            "empathy_level": "medium",
+            "enthusiasm_level": "high",
+            "formality_level": "medium",
+            "supportiveness": "medium"
+          }
+        },
+        "success": true
+      }
+    ],
+    "user_profile": {
+      "first_interaction": "2026-01-06T18:16:33.354652",
+      "total_messages": 4,
+      "preferred_intents": {
+        "question": 1,
+        "general": 2,
+        "greeting": 1
+      },
+      "sentiment_history": [
+        {
+          "timestamp": "2026-01-06T18:16:33.354652",
+          "sentiment": "neutral",
+          "polarity": 0.0
+        },
+        {
+          "timestamp": "2026-01-06T18:16:55.848279",
+          "sentiment": "negative",
+          "polarity": -0.5
+        },
+        {
+          "timestamp": "2026-01-06T18:17:47.966754",
+          "sentiment": "positive",
+          "polarity": 0.5
+        },
+        {
+          "timestamp": "2026-01-06T18:18:24.016053",
+          "sentiment": "positive",
+          "polarity": 0.6
+        }
+      ],
+      "last_interaction": "2026-01-06T18:18:24.016053"
     }
   }
 }

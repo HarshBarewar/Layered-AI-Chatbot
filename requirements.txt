@@ -9,3 +9,6 @@ requests
 python-dotenv
 plotly
 spacy
+wordcloud
+seaborn
+matplotlib

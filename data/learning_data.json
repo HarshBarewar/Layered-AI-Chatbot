@@ -2,6 +2,91 @@
   "intent_improvements": {
     "greeting": {
       "successful_patterns": [
+        "you help",
+        "help me",
+        "me with",
+        "with something?",
+        "can you help",
+        "you help me",
+        "what",
+        "machine",
+        "learning?",
+        "what is",
+        "is machine",
+        "machine learning?",
+        "what is machine",
+        "is machine learning?",
+        "tell",
+        "about",
+        "machine",
+        "learning",
+        "tell me",
+        "me about",
+        "about machine",
+        "machine learning",
+        "tell me about",
+        "me about machine",
+        "whay",
+        "machine",
+        "learning",
+        "whay is",
+        "is machine",
+        "machine learning",
+        "whay is machine",
+        "is machine learning",
+        "hello",
+        "difference",
+        "between",
+        "overfitting",
+        "underfitting",
+        "machine",
+        "learnin.",
+        "difference between",
+        "between overfitting",
+        "overfitting and",
+        "and underfitting",
+        "hello,have",
+        "nice",
+        "day.",
+        "hello,have a",
+        "nice day.",
+        "hello,have a nice",
+        "a nice day."
+      ],
+      "failed_patterns": [],
+      "improvement_suggestions": []
+    },
+    "question": {
+      "successful_patterns": [
+        "details",
+        "about",
+        "rcoem,nagpur?",
+        "what are",
+        "are details",
+        "details about",
+        "about rcoem,nagpur?",
+        "what are details",
+        "are details about",
+        "ramdeobaba",
+        "university",
+        ",nagpur",
+        "good",
+        "bad?",
+        "ramdeobaba university",
+        "university ,nagpur",
+        ",nagpur is",
+        "is good",
+        "good or",
+        "what",
+        "about",
+        "ramdeobaba",
+        "college",
+        "engineering?",
+        "what about",
+        "about ramdeobaba",
+        "ramdeobaba college",
+        "college of",
+        "of engineering?",
         "hello,",
         "you?",
         "hello, how",
@@ -9,115 +94,122 @@
         "are you?",
         "hello, how are",
         "how are you?",
-        "help",
-        "with",
-        "something?",
-        "can you",
-        "you help",
-        "help me",
-        "me with",
-        "with something?",
-        "can you help",
-        "you help me",
-        "hello",
-        "good",
-        "morning",
-        "hello good",
-        "good morning",
-        "hello good morning",
-        "tujhe",
-        "hindi",
-        "aati",
-        "tujhe hindi",
-        "hindi aati",
-        "aati hai",
-        "tujhe hindi aati",
-        "hindi aati hai",
-        "talk",
-        "hindi",
-        "talk in",
-        "in hindi",
-        "talk in hindi"
-      ],
-      "failed_patterns": [],
-      "improvement_suggestions": []
-    },
-    "question": {
-      "successful_patterns": [
         "what",
         "india?",
         "what is",
         "of india?",
         "what is the",
         "pm of india?",
-        "mad?",
-        "are you",
-        "you mad?",
-        "are you mad?",
         "what",
-        "data",
-        "analytics",
+        "machine",
+        "learning?",
         "what is",
-        "is data",
-        "data analytics",
-        "what is data",
-        "is data analytics",
-        "what",
-        "weather",
-        "today",
-        "what is",
-        "is weather",
-        "weather today",
-        "what is weather",
-        "is weather today",
-        "what",
-        "what is",
-        "what is a+1",
-        "what",
-        "ennglish",
-        "communication",
-        "what is",
-        "of ennglish",
-        "ennglish communication",
-        "c's of ennglish",
-        "of ennglish communication"
+        "is machine",
+        "machine learning?",
+        "what is machine",
+        "is machine learning?"
       ],
       "failed_patterns": [],
       "improvement_suggestions": []
     },
     "general": {
       "successful_patterns": [
-        "feeling",
-        "today",
         "i'm feeling",
         "feeling sad",
         "sad today",
         "i'm feeling sad",
         "feeling sad today",
-        "detailed",
-        "info",
-        "about",
-        "chatbots",
-        "detailed info",
-        "info about",
-        "about chatbots",
-        "detailed info about",
-        "info about chatbots",
-        "idiot",
+        "effiel",
+        "tower",
+        "effiel tower",
+        "tell",
+        "tell me",
+        "sorry",
+        "foolish",
+        "useless",
+        "you are",
+        "are foolish",
+        "foolish and",
+        "and useless",
+        "you are foolish",
+        "are foolish and",
+        "foolish and useless",
+        "foolish",
+        "useless",
+        "you are",
+        "are foolish",
+        "foolish and",
+        "and useless",
+        "you are foolish",
+        "are foolish and",
+        "foolish and useless",
         "foolish",
         "you are",
-        "are idiot",
-        "idiot and",
-        "and foolish",
-        "you are idiot",
-        "are idiot and",
-        "idiot and foolish"
+        "are foolish",
+        "you are foolish",
+        "angry",
+        "youu",
+        "am angry",
+        "angry on",
+        "on youu",
+        "am angry on",
+        "angry on youu",
+        "useless",
+        "you are",
+        "are useless",
+        "you are useless",
+        "feeling",
+        "confident",
+        "am feeling",
+        "feeling confident",
+        "i am feeling",
+        "am feeling confident"
       ],
       "failed_patterns": [],
       "improvement_suggestions": []
     },
     "help": {
       "successful_patterns": [
+        "thank",
+        "your",
+        "assistance",
+        "thank you",
+        "you for",
+        "for your",
+        "your assistance",
+        "thank you for",
+        "you for your",
+        "for your assistance",
+        "thank",
+        "your",
+        "assistance",
+        "thank you",
+        "you for",
+        "for your",
+        "your assistance",
+        "thank you for",
+        "you for your",
+        "for your assistance",
+        "thank",
+        "your",
+        "assistance",
+        "thank you",
+        "you for",
+        "for your",
+        "your assistance",
+        "thank you for",
+        "you for your",
+        "for your assistance",
+        "thank",
+        "your",
+        "assistance",
+        "thank you",
+        "you for",
+        "for your",
+        "your assistance",
+        "thank you for",
+        "you for your",
+        "for your assistance",
         "thank",
         "your",
         "assistance",
@@ -142,7 +234,25 @@
         "great today",
         "i am feeling",
         "am feeling great",
-        "feeling great today"
+        "feeling great today",
+        "tell",
+        "good",
+        "hobbies",
+        "good",
+        "healt",
+        "tell me",
+        "me good",
+        "good hobbies",
+        "hobbies for",
+        "for good",
+        "tell",
+        "good",
+        "hobies",
+        "tell me",
+        "me good",
+        "good hobies",
+        "tell me good",
+        "me good hobies"
       ],
       "failed_patterns": [],
       "improvement_suggestions": []
@@ -267,767 +377,2056 @@
       "success": true,
       "user_sentiment": "neutral",
       "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-30T14:00:47.980522",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:00:48.079458",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:00:48.173013",
+      "strategy": "fallback",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.6
+    },
+    {
+      "timestamp": "2025-12-30T14:00:48.243614",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:00:50.696407",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:02:18.326168",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "positive",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:03:57.693519",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "positive",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:04:24.294714",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:04:47.673262",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:05:25.501903",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:05:40.418352",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:10:27.532475",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:14:54.399892",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:14:54.435652",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:14:54.483776",
+      "strategy": "fallback",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.6
+    },
+    {
+      "timestamp": "2025-12-30T14:14:54.521980",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:14:56.950422",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:15:24.980709",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:15:40.350711",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849334",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:16:24.219807",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.260631",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:17:58.079076",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:19:05.846585",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:19:05.902214",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:19:05.985121",
+      "strategy": "fallback",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.6
+    },
+    {
+      "timestamp": "2025-12-30T14:19:06.043077",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:19:10.740505",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:19:38.187745",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:20:02.041136",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.75
+    },
+    {
+      "timestamp": "2025-12-30T14:24:16.168160",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:24:16.201046",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:24:18.429135",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:24:18.495977",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:24:23.373242",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352182",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203275",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:30:31.039596",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:31:07.945078",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:31:07.980958",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.176804",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:32:05.302757",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:32:05.337846",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:32:09.406802",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:32:48.744591",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:32:56.932467",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T14:33:06.161965",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:33:22.095578",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.677942",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:36:02.633176",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:36:02.660565",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:51:42.942326",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:51:42.972346",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:52:33.420423",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:52:52.870377",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:53:37.899774",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T14:57:46.259316",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-30T14:57:46.307292",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T14:58:32.588938",
+      "strategy": "enhanced_rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.85
+    },
+    {
+      "timestamp": "2025-12-30T15:01:34.988495",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-30T15:01:35.053427",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2025-12-30T15:02:23.558352",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-30T15:03:03.668436",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-30T15:03:21.068263",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2025-12-30T15:03:37.900059",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2025-12-30T15:05:02.941284",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:16:13.309361",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:16:13.365724",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2026-01-06T17:17:22.702918",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:17:58.480485",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:18:10.279594",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928359",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2026-01-06T17:19:26.537911",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.697868",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:23:20.080790",
+      "strategy": "feedback",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.8
+    },
+    {
+      "timestamp": "2026-01-06T17:55:04.642544",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:55:04.715971",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2026-01-06T17:55:47.535567",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.776978",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T17:59:51.189232",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T18:01:01.345779",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T18:01:53.772414",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T18:15:18.560341",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T18:15:18.617254",
+      "strategy": "faq",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.95
+    },
+    {
+      "timestamp": "2026-01-06T18:16:33.388405",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "neutral",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T18:16:55.892665",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "negative",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T18:17:48.003081",
+      "strategy": "generative_ai",
+      "success": true,
+      "user_sentiment": "positive",
+      "response_confidence": 0.9
+    },
+    {
+      "timestamp": "2026-01-06T18:18:24.067826",
+      "strategy": "rule_based",
+      "success": true,
+      "user_sentiment": "positive",
+      "response_confidence": 0.8
     }
   ],
   "pattern_discoveries": [
     {
-      "timestamp": "2025-12-25T21:49:25.036089",
+      "timestamp": "2025-12-30T14:04:24.294771",
+      "pattern": "virat",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:24.294846",
+      "pattern": "kohli",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:24.294901",
+      "pattern": "is virat",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:24.294987",
+      "pattern": "virat kohli",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:24.295039",
+      "pattern": "who is virat",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:24.295089",
+      "pattern": "is virat kohli",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:47.673336",
+      "pattern": "tell",
+      "intent": "general",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:04:47.673386",
+      "pattern": "communication",
+      "intent": "general",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:47.673436",
+      "pattern": "tell me",
+      "intent": "general",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:04:47.673485",
+      "pattern": "of communication",
+      "intent": "general",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:04:47.673535",
+      "pattern": "c's of communication",
+      "intent": "general",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:10:27.532658",
+      "pattern": "science?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:10:27.532750",
+      "pattern": "data science?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:10:27.532935",
+      "pattern": "is data science?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:15:24.980790",
+      "pattern": "hii how",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:15:24.980896",
+      "pattern": "are you",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:15:24.980955",
+      "pattern": "hii how are",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:15:24.981013",
+      "pattern": "how are you",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:15:40.350947",
+      "pattern": "fata",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:15:40.351009",
+      "pattern": "science",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:15:40.351163",
+      "pattern": "analytics and",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:15:40.351184",
+      "pattern": "and fata",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849395",
+      "pattern": "where",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849460",
+      "pattern": "nagpur",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849529",
+      "pattern": "located",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849581",
+      "pattern": "where is",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849638",
+      "pattern": "is nagpur",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849694",
+      "pattern": "nagpur located",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849719",
+      "pattern": "where is nagpur",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:02.849739",
+      "pattern": "is nagpur located",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:24.219993",
+      "pattern": "artificial",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:24.220049",
+      "pattern": "intelligence",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:24.220146",
+      "pattern": "is artificial",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:24.220259",
+      "pattern": "artificial intelligence",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:24.220322",
+      "pattern": "what is artificial",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:16:24.220374",
+      "pattern": "is artificial intelligence",
+      "intent": "question",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.260839",
+      "pattern": "decision",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.260968",
+      "pattern": "tree",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.261094",
+      "pattern": "is decision",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.261159",
+      "pattern": "decision tree",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.261228",
+      "pattern": "tree and",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.261291",
+      "pattern": "and rag",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.261359",
+      "pattern": "what is decision",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:17:28.261431",
+      "pattern": "is decision tree",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:19:38.187995",
+      "pattern": "classifier",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:19:38.188083",
+      "pattern": "tree classifier",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:20:02.041602",
+      "pattern": "what are",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:20:02.041743",
+      "pattern": "of communication",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:20:02.041873",
+      "pattern": "c's of communication",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352284",
+      "pattern": "what",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352361",
+      "pattern": "machine",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352441",
+      "pattern": "learning?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352510",
+      "pattern": "what is",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352576",
+      "pattern": "is machine",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352640",
+      "pattern": "machine learning?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352705",
+      "pattern": "what is machine",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:09.352770",
+      "pattern": "is machine learning?",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203375",
+      "pattern": "tell",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203474",
+      "pattern": "about",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203569",
+      "pattern": "learning",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203597",
+      "pattern": "tell me",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203620",
+      "pattern": "me about",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203643",
+      "pattern": "about machine",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203667",
+      "pattern": "machine learning",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203690",
+      "pattern": "tell me about",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:25:23.203714",
+      "pattern": "me about machine",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:30:31.039766",
+      "pattern": "machine",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 4
+    },
+    {
+      "timestamp": "2025-12-30T14:30:31.039835",
+      "pattern": "learning?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:30:31.039957",
+      "pattern": "is machine",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:30:31.040022",
+      "pattern": "machine learning?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:30:31.040088",
+      "pattern": "what is machine",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:30:31.040161",
+      "pattern": "is machine learning?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:07.945211",
       "pattern": "hello,",
-      "intent": "greeting",
+      "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 10
     },
     {
-      "timestamp": "2025-12-25T21:49:25.036099",
+      "timestamp": "2025-12-30T14:31:07.945352",
       "pattern": "you?",
-      "intent": "greeting",
+      "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 10
     },
     {
-      "timestamp": "2025-12-25T21:49:25.036107",
+      "timestamp": "2025-12-30T14:31:07.945441",
       "pattern": "hello, how",
-      "intent": "greeting",
+      "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 10
     },
     {
-      "timestamp": "2025-12-25T21:49:25.036115",
+      "timestamp": "2025-12-30T14:31:07.945541",
       "pattern": "how are",
-      "intent": "greeting",
+      "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 10
     },
     {
-      "timestamp": "2025-12-25T21:49:25.036122",
+      "timestamp": "2025-12-30T14:31:07.945620",
       "pattern": "are you?",
-      "intent": "greeting",
+      "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 10
     },
     {
-      "timestamp": "2025-12-25T21:49:25.036129",
+      "timestamp": "2025-12-30T14:31:07.945696",
       "pattern": "hello, how are",
-      "intent": "greeting",
+      "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 10
     },
     {
-      "timestamp": "2025-12-25T21:49:25.036137",
+      "timestamp": "2025-12-30T14:31:07.945768",
       "pattern": "how are you?",
-      "intent": "greeting",
+      "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 10
     },
     {
-      "timestamp": "2025-12-25T21:49:25.050056",
+      "timestamp": "2025-12-30T14:31:12.177155",
+      "pattern": "help",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.177320",
+      "pattern": "with",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.177512",
+      "pattern": "something?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.177672",
+      "pattern": "can you",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.177828",
+      "pattern": "you help",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.178009",
+      "pattern": "help me",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.178167",
+      "pattern": "me with",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.178322",
+      "pattern": "with something?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.178477",
+      "pattern": "can you help",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:31:12.178631",
+      "pattern": "you help me",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:32:05.338084",
       "pattern": "what",
       "intent": "question",
       "sentiment": "neutral",
-      "frequency": 6
+      "frequency": 21
     },
     {
-      "timestamp": "2025-12-25T21:49:25.050066",
+      "timestamp": "2025-12-30T14:32:05.338193",
       "pattern": "india?",
       "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 9
     },
     {
-      "timestamp": "2025-12-25T21:49:25.050077",
+      "timestamp": "2025-12-30T14:32:05.338295",
       "pattern": "what is",
       "intent": "question",
       "sentiment": "neutral",
-      "frequency": 6
+      "frequency": 19
     },
     {
-      "timestamp": "2025-12-25T21:49:25.050086",
+      "timestamp": "2025-12-30T14:32:56.932545",
+      "pattern": "whay",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:32:56.932759",
+      "pattern": "whay is",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:32:56.932837",
+      "pattern": "whay is machine",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:32:56.932862",
+      "pattern": "is machine learning",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:22.095960",
+      "pattern": "works?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:33:22.096194",
+      "pattern": "how machine",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:22.096282",
+      "pattern": "machine works?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:22.096356",
+      "pattern": "how machine works?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.678278",
+      "pattern": "induction",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.678585",
+      "pattern": "motor",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.679055",
+      "pattern": "how induction",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.679158",
+      "pattern": "induction motor",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.679244",
+      "pattern": "motor works?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.679326",
+      "pattern": "how induction motor",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:33:41.679409",
+      "pattern": "induction motor works?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:36:02.660935",
       "pattern": "of india?",
       "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 8
     },
     {
-      "timestamp": "2025-12-25T21:49:25.050096",
+      "timestamp": "2025-12-30T14:36:02.661052",
       "pattern": "what is the",
       "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 8
     },
     {
-      "timestamp": "2025-12-25T21:49:25.050106",
+      "timestamp": "2025-12-30T14:36:02.661135",
       "pattern": "pm of india?",
       "intent": "question",
       "sentiment": "neutral",
-      "frequency": 2
+      "frequency": 8
     },
     {
-      "timestamp": "2025-12-25T21:49:25.093135",
-      "pattern": "feeling",
-      "intent": "general",
-      "sentiment": "negative",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.093144",
-      "pattern": "today",
-      "intent": "general",
-      "sentiment": "negative",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.093153",
-      "pattern": "i'm feeling",
-      "intent": "general",
-      "sentiment": "negative",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.093163",
-      "pattern": "feeling sad",
-      "intent": "general",
-      "sentiment": "negative",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.093171",
-      "pattern": "sad today",
-      "intent": "general",
-      "sentiment": "negative",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.093181",
-      "pattern": "i'm feeling sad",
-      "intent": "general",
-      "sentiment": "negative",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.093190",
-      "pattern": "feeling sad today",
-      "intent": "general",
-      "sentiment": "negative",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125257",
-      "pattern": "help",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125267",
-      "pattern": "with",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125277",
-      "pattern": "something?",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125286",
-      "pattern": "can you",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125295",
-      "pattern": "you help",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125306",
-      "pattern": "help me",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125316",
-      "pattern": "me with",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125326",
-      "pattern": "with something?",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125337",
-      "pattern": "can you help",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:25.125347",
-      "pattern": "you help me",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705559",
-      "pattern": "thank",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705583",
-      "pattern": "your",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705599",
-      "pattern": "assistance",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705616",
-      "pattern": "thank you",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705633",
-      "pattern": "you for",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705658",
-      "pattern": "for your",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705675",
-      "pattern": "your assistance",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705693",
-      "pattern": "thank you for",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705710",
-      "pattern": "you for your",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:29.705728",
-      "pattern": "for your assistance",
-      "intent": "help",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:49:56.878462",
-      "pattern": "mad?",
+      "timestamp": "2025-12-30T14:52:33.420745",
+      "pattern": "effiel",
       "intent": "question",
-      "sentiment": "negative",
-      "frequency": 2
+      "sentiment": "neutral",
+      "frequency": 5
     },
     {
-      "timestamp": "2025-12-25T21:49:56.878483",
-      "pattern": "are you",
+      "timestamp": "2025-12-30T14:52:33.420840",
+      "pattern": "tower?",
       "intent": "question",
-      "sentiment": "negative",
-      "frequency": 2
+      "sentiment": "neutral",
+      "frequency": 3
     },
     {
-      "timestamp": "2025-12-25T21:49:56.878503",
-      "pattern": "you mad?",
+      "timestamp": "2025-12-30T14:52:33.420951",
+      "pattern": "is effiel",
       "intent": "question",
-      "sentiment": "negative",
-      "frequency": 2
+      "sentiment": "neutral",
+      "frequency": 5
     },
     {
-      "timestamp": "2025-12-25T21:49:56.878519",
-      "pattern": "are you mad?",
+      "timestamp": "2025-12-30T14:52:33.421007",
+      "pattern": "effiel tower?",
       "intent": "question",
-      "sentiment": "negative",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:52:33.421060",
+      "pattern": "what is effiel",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 5
+    },
+    {
+      "timestamp": "2025-12-30T14:52:33.421115",
+      "pattern": "is effiel tower?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2025-12-30T14:52:52.870945",
+      "pattern": "effiel",
+      "intent": "general",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:50:11.625938",
+      "timestamp": "2025-12-30T14:52:52.871139",
+      "pattern": "tower",
+      "intent": "general",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:52:52.871310",
+      "pattern": "effiel tower",
+      "intent": "general",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:58:32.589186",
+      "pattern": "towee?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:58:32.589275",
+      "pattern": "effiel towee?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T14:58:32.589332",
+      "pattern": "is effiel towee?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T15:02:23.558575",
+      "pattern": "today?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T15:02:23.558765",
+      "pattern": "weather today?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T15:02:23.558870",
+      "pattern": "how is weather",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T15:02:23.558970",
+      "pattern": "is weather today?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T15:03:03.668798",
+      "pattern": "classifier?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T15:03:03.669133",
+      "pattern": "tree classifier?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2025-12-30T15:03:21.068424",
       "pattern": "hello",
       "intent": "greeting",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:11.625955",
-      "pattern": "good",
-      "intent": "greeting",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:11.625973",
-      "pattern": "morning",
-      "intent": "greeting",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:11.625987",
-      "pattern": "hello good",
-      "intent": "greeting",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:11.626004",
-      "pattern": "good morning",
-      "intent": "greeting",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:11.626025",
-      "pattern": "hello good morning",
-      "intent": "greeting",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:25.838799",
-      "pattern": "data",
-      "intent": "question",
       "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:50:25.838824",
-      "pattern": "analytics",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:25.838864",
-      "pattern": "is data",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:25.838899",
-      "pattern": "data analytics",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:25.838922",
-      "pattern": "what is data",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:25.838946",
-      "pattern": "is data analytics",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:45.297317",
-      "pattern": "detailed",
+      "timestamp": "2025-12-30T15:03:37.900152",
+      "pattern": "sorry",
       "intent": "general",
-      "sentiment": "positive",
+      "sentiment": "negative",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:50:45.297340",
-      "pattern": "info",
+      "timestamp": "2026-01-06T17:17:22.703069",
+      "pattern": "nltk",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 4
+    },
+    {
+      "timestamp": "2026-01-06T17:17:22.703175",
+      "pattern": "is nltk",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 4
+    },
+    {
+      "timestamp": "2026-01-06T17:17:22.703252",
+      "pattern": "what is nltk",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 4
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928458",
+      "pattern": "difference",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928521",
+      "pattern": "between",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928577",
+      "pattern": "overfitting",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928637",
+      "pattern": "underfitting",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928750",
+      "pattern": "learnin.",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928808",
+      "pattern": "difference between",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928864",
+      "pattern": "between overfitting",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928921",
+      "pattern": "overfitting and",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:18:47.928981",
+      "pattern": "and underfitting",
+      "intent": "greeting",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:19:26.538139",
+      "pattern": "tower",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:19:26.538348",
+      "pattern": "effiel tower",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:19:26.538482",
+      "pattern": "is effiel tower",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.698500",
+      "pattern": "useless",
       "intent": "general",
-      "sentiment": "positive",
+      "sentiment": "negative",
+      "frequency": 4
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.698982",
+      "pattern": "are foolish",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 4
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.699061",
+      "pattern": "foolish and",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.699118",
+      "pattern": "and useless",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.699186",
+      "pattern": "you are foolish",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 4
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.699274",
+      "pattern": "are foolish and",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2026-01-06T17:20:40.699437",
+      "pattern": "foolish and useless",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.777042",
+      "pattern": "angry",
+      "intent": "general",
+      "sentiment": "negative",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:50:45.297361",
+      "timestamp": "2026-01-06T17:56:13.777107",
+      "pattern": "youu",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.777234",
+      "pattern": "am angry",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.777292",
+      "pattern": "angry on",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.777348",
+      "pattern": "on youu",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.777396",
+      "pattern": "am angry on",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:56:13.777444",
+      "pattern": "angry on youu",
+      "intent": "general",
+      "sentiment": "negative",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:59:51.189414",
+      "pattern": "details",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T17:59:51.189497",
       "pattern": "about",
-      "intent": "general",
-      "sentiment": "positive",
-      "frequency": 2
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
     },
     {
-      "timestamp": "2025-12-25T21:50:45.297383",
-      "pattern": "chatbots",
-      "intent": "general",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:45.297406",
-      "pattern": "detailed info",
-      "intent": "general",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:45.297429",
-      "pattern": "info about",
-      "intent": "general",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:45.297463",
-      "pattern": "about chatbots",
-      "intent": "general",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:45.297488",
-      "pattern": "detailed info about",
-      "intent": "general",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:50:45.297512",
-      "pattern": "info about chatbots",
-      "intent": "general",
-      "sentiment": "positive",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:51:00.973475",
-      "pattern": "weather",
+      "timestamp": "2026-01-06T17:59:51.189571",
+      "pattern": "rcoem,nagpur?",
       "intent": "question",
       "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:00.973492",
-      "pattern": "today",
+      "timestamp": "2026-01-06T17:59:51.189707",
+      "pattern": "are details",
       "intent": "question",
       "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:00.973526",
-      "pattern": "is weather",
+      "timestamp": "2026-01-06T17:59:51.189780",
+      "pattern": "details about",
       "intent": "question",
       "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:00.973548",
-      "pattern": "weather today",
+      "timestamp": "2026-01-06T17:59:51.189853",
+      "pattern": "about rcoem,nagpur?",
       "intent": "question",
       "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:00.973564",
-      "pattern": "what is weather",
+      "timestamp": "2026-01-06T17:59:51.189926",
+      "pattern": "what are details",
       "intent": "question",
       "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:00.973580",
-      "pattern": "is weather today",
+      "timestamp": "2026-01-06T17:59:51.189999",
+      "pattern": "are details about",
       "intent": "question",
       "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431208",
-      "pattern": "feeling",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.345880",
+      "pattern": "ramdeobaba",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 3
+    },
+    {
+      "timestamp": "2026-01-06T18:01:01.345915",
+      "pattern": "university",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431374",
-      "pattern": "great",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.345945",
+      "pattern": ",nagpur",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431409",
-      "pattern": "today",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.345973",
+      "pattern": "good",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431434",
-      "pattern": "am feeling",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.346001",
+      "pattern": "bad?",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431459",
-      "pattern": "feeling great",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.346029",
+      "pattern": "ramdeobaba university",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431483",
-      "pattern": "great today",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.346057",
+      "pattern": "university ,nagpur",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431510",
-      "pattern": "i am feeling",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.346090",
+      "pattern": ",nagpur is",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431534",
-      "pattern": "am feeling great",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.346125",
+      "pattern": "is good",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:25.431559",
-      "pattern": "feeling great today",
-      "intent": "compliment",
-      "sentiment": "positive",
+      "timestamp": "2026-01-06T18:01:01.346153",
+      "pattern": "good or",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.263979",
-      "pattern": "idiot",
-      "intent": "general",
-      "sentiment": "negative",
+      "timestamp": "2026-01-06T18:01:53.772747",
+      "pattern": "college",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264006",
-      "pattern": "foolish",
-      "intent": "general",
-      "sentiment": "negative",
+      "timestamp": "2026-01-06T18:01:53.772785",
+      "pattern": "engineering?",
+      "intent": "question",
+      "sentiment": "neutral",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264032",
+      "timestamp": "2026-01-06T18:01:53.772814",
+      "pattern": "what about",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T18:01:53.772842",
+      "pattern": "about ramdeobaba",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T18:01:53.772872",
+      "pattern": "ramdeobaba college",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T18:01:53.772901",
+      "pattern": "college of",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T18:01:53.772931",
+      "pattern": "of engineering?",
+      "intent": "question",
+      "sentiment": "neutral",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T18:16:55.892778",
       "pattern": "you are",
       "intent": "general",
       "sentiment": "negative",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264060",
-      "pattern": "are idiot",
+      "timestamp": "2026-01-06T18:16:55.892838",
+      "pattern": "are useless",
       "intent": "general",
       "sentiment": "negative",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264087",
-      "pattern": "idiot and",
+      "timestamp": "2026-01-06T18:16:55.892891",
+      "pattern": "you are useless",
       "intent": "general",
       "sentiment": "negative",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264110",
-      "pattern": "and foolish",
+      "timestamp": "2026-01-06T18:17:48.003155",
+      "pattern": "feeling",
       "intent": "general",
-      "sentiment": "negative",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264147",
-      "pattern": "you are idiot",
+      "timestamp": "2026-01-06T18:17:48.003214",
+      "pattern": "confident",
       "intent": "general",
-      "sentiment": "negative",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264179",
-      "pattern": "are idiot and",
+      "timestamp": "2026-01-06T18:17:48.003270",
+      "pattern": "am feeling",
       "intent": "general",
-      "sentiment": "negative",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:51:53.264208",
-      "pattern": "idiot and foolish",
+      "timestamp": "2026-01-06T18:17:48.003347",
+      "pattern": "feeling confident",
       "intent": "general",
-      "sentiment": "negative",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:54:22.202200",
-      "pattern": "what is a+1",
-      "intent": "question",
-      "sentiment": "neutral",
+      "timestamp": "2026-01-06T18:17:48.003415",
+      "pattern": "i am feeling",
+      "intent": "general",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:55:56.145498",
-      "pattern": "tujhe",
+      "timestamp": "2026-01-06T18:17:48.003473",
+      "pattern": "am feeling confident",
+      "intent": "general",
+      "sentiment": "positive",
+      "frequency": 2
+    },
+    {
+      "timestamp": "2026-01-06T18:18:24.067906",
+      "pattern": "hello,have",
       "intent": "greeting",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:55:56.146507",
-      "pattern": "hindi",
+      "timestamp": "2026-01-06T18:18:24.067967",
+      "pattern": "nice",
       "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 3
+      "sentiment": "positive",
+      "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:55:56.146649",
-      "pattern": "aati",
+      "timestamp": "2026-01-06T18:18:24.067990",
+      "pattern": "day.",
       "intent": "greeting",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:55:56.146799",
-      "pattern": "tujhe hindi",
+      "timestamp": "2026-01-06T18:18:24.068033",
+      "pattern": "hello,have a",
       "intent": "greeting",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:55:56.146826",
-      "pattern": "hindi aati",
+      "timestamp": "2026-01-06T18:18:24.068054",
+      "pattern": "nice day.",
       "intent": "greeting",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:55:56.146850",
-      "pattern": "aati hai",
+      "timestamp": "2026-01-06T18:18:24.068072",
+      "pattern": "hello,have a nice",
       "intent": "greeting",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "frequency": 2
     },
     {
-      "timestamp": "2025-12-25T21:55:56.146886",
-      "pattern": "tujhe hindi aati",
+      "timestamp": "2026-01-06T18:18:24.068113",
+      "pattern": "a nice day.",
       "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:55:56.146911",
-      "pattern": "hindi aati hai",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:08.094916",
-      "pattern": "talk",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:08.094971",
-      "pattern": "talk in",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:08.094998",
-      "pattern": "in hindi",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:08.095027",
-      "pattern": "talk in hindi",
-      "intent": "greeting",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.860275",
-      "pattern": "ennglish",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.860307",
-      "pattern": "communication",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.860360",
-      "pattern": "of ennglish",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.860381",
-      "pattern": "ennglish communication",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.860408",
-      "pattern": "c's of ennglish",
-      "intent": "question",
-      "sentiment": "neutral",
-      "frequency": 2
-    },
-    {
-      "timestamp": "2025-12-25T21:56:55.860434",
-      "pattern": "of ennglish communication",
-      "intent": "question",
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "frequency": 2
     }
   ],
-  "optimization_suggestions": [],
+  "optimization_suggestions": [
+    {
+      "type": "response_optimization",
+      "priority": "low",
+      "suggestion": "Response strategy 'generative_ai' is highly effective (100.0%)",
+      "action": "expand_strategy_usage",
+      "target": "generative_ai"
+    },
+    {
+      "type": "response_optimization",
+      "priority": "low",
+      "suggestion": "Response strategy 'rule_based' is highly effective (100.0%)",
+      "action": "expand_strategy_usage",
+      "target": "rule_based"
+    },
+    {
+      "type": "response_optimization",
+      "priority": "low",
+      "suggestion": "Response strategy 'faq' is highly effective (100.0%)",
+      "action": "expand_strategy_usage",
+      "target": "faq"
+    },
+    {
+      "type": "response_optimization",
+      "priority": "low",
+      "suggestion": "Response strategy 'enhanced_rule_based' is highly effective (100.0%)",
+      "action": "expand_strategy_usage",
+      "target": "enhanced_rule_based"
+    }
+  ],
   "model_performance_history": [
     {
       "date": "2025-12-25",
@@ -1051,6 +2450,50 @@
         "compliment": {
           "total": 1,
           "successful": 1
+        }
+      },
+      "overall_accuracy": 100.0
+    },
+    {
+      "date": "2025-12-30",
+      "intent_performance": {
+        "greeting": {
+          "total": 15,
+          "successful": 15
+        },
+        "question": {
+          "total": 37,
+          "successful": 37
+        },
+        "general": {
+          "total": 8,
+          "successful": 8
+        },
+        "help": {
+          "total": 4,
+          "successful": 4
+        },
+        "compliment": {
+          "total": 2,
+          "successful": 2
+        }
+      },
+      "overall_accuracy": 100.0
+    },
+    {
+      "date": "2026-01-06",
+      "intent_performance": {
+        "question": {
+          "total": 14,
+          "successful": 14
+        },
+        "greeting": {
+          "total": 2,
+          "successful": 2
+        },
+        "general": {
+          "total": 6,
+          "successful": 6
         }
       },
       "overall_accuracy": 100.0
