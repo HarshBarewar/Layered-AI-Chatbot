@@ -32,39 +32,65 @@ st.markdown("""
         text-align: center;
         margin-bottom: 1rem;
     }
+
     .chat-message {
         padding: 1rem;
         border-radius: 10px;
         margin: 0.5rem 0;
         border-left: 4px solid #1f77b4;
+        color: #111111;   /* ✅ FIX */
     }
+
     .user-message {
         background-color: #e3f2fd;
         margin-left: 10%;
         border-left-color: #2196f3;
+        color: #111111;   /* ✅ FIX */
     }
+
     .bot-message {
         background-color: #f5f5f5;
         margin-right: 10%;
         border-left-color: #4caf50;
+        color: #111111;   /* ✅ FIX */
     }
+
+    .bot-message small {
+        color: #444444;   /* metadata readable */
+    }
+
     .metric-card {
         background-color: #ffffff;
         padding: 1rem;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         margin: 0.5rem 0;
+        color: #111111;
     }
+
     .layer-status {
         padding: 0.5rem;
         border-radius: 5px;
         margin: 0.2rem 0;
     }
-    .operational { background-color: #e8f5e8; color: #2e7d32; }
-    .warning { background-color: #fff3e0; color: #f57c00; }
-    .error { background-color: #ffebee; color: #d32f2f; }
+
+    .operational {
+        background-color: #e8f5e8;
+        color: #2e7d32;
+    }
+
+    .warning {
+        background-color: #fff3e0;
+        color: #f57c00;
+    }
+
+    .error {
+        background-color: #ffebee;
+        color: #d32f2f;
+    }
 </style>
 """, unsafe_allow_html=True)
+
 
 # Initialize chatbot
 @st.cache_resource
